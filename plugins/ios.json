@@ -1,0 +1,38 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-ios-camera-permissions": {
+      "CAMERA_USAGE_DESCRIPTION": "This app needs camera access",
+      "MICROPHONE_USAGE_DESCRIPTION": "This app needs microphone access",
+      "PHOTOLIBRARY_ADD_USAGE_DESCRIPTION": "This app needs write-access to photo library",
+      "PHOTOLIBRARY_USAGE_DESCRIPTION": "This app needs read/write-access photo library access",
+      "PACKAGE_NAME": "com.sujoy.donation"
+    },
+    "cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "com.sujoy.donation"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.sujoy.donation"
+    },
+    "cordova-plugin-x-socialsharing": {
+      "PACKAGE_NAME": "com.sujoy.donation"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "com.sujoy.donation"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.sujoy.donation"
+    },
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.sujoy.donation"
+    }
+  }
+}

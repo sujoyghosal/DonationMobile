@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Subscribe Events</title>
+</head>
+
+<body>
+    <p align="right"><input type="button" class="btn btn-primary btn-md" name="SubmitTo" value="Manage Subscriptions" ng-click="Redirect('/unsubscribe')"></button>
+    </p>
+    <p align="left">If you are interested in specific types of donations for a specific locations or areas, add that place name and item here. Whenever anyone creates a donation offer at that place matching this item, you will get a notification.</p>
+
+
+    <div ng-app="myApp" ng-controller="DonationCtrl">
+        <label for="city">
+                        <p/>Enter City: </label>
+
+        <br>
+        <input type="text" name="city" ng-model="data.city" />
+        <br>
+        <!--        <label for="item">
+                    <p/>Enter Item: </label>
+        <br>
+        <input type="text" name="item" ng-model="data.item" /> -->
+        <br>
+        <p>
+            <label for="sel1">Select Type:</label>
+            <select class="form-control" id="sel1" name="itemtype" ng-model="data.itemtype" style="width:200px">
+                    <option value="" selected disabled>Select Type</option>
+                    <option value="" disabled>Emergencies</option>
+                    <option value="Blood">Blood Needed</option>
+                    <option value="Medical">Other Medical</option>
+                    <option value="Natural Disaster">Natural Disaster</option>
+                    <option value="Terrorism">Terrorism</option>
+                    <option value="Accident">Accident</option>
+                    <option value="Women's Safety">Women's Safety</option>
+                    <option value="Children's Safety">Children's Safety</option>
+                    <option value="" disabled>Non-Emergencies</option>
+                        <option value="Electronics">Electronics</option>
+                        <option value="Fashion">Utilities</option>
+                        <option value="Educational">Educational</option>
+                        <option value="Medical">Medical</option>
+                        <option value="Food">Food</option>
+                        <option value="Furniture">Furniture</option>
+                        <option value="Clothes">Clothes</option>
+                        <option value="Fashion">Fashion</option>
+                        <option value="Household">Household</option>
+                        <option value="Sports">Sports</option>
+                        <option value="Shoes">Shoes</option>                               
+                        <option value="Other">Other</option>
+                    </select>
+        </p>
+
+        <br>
+        <input type="button" class="btn btn-primary btn-md" name="SubmitTo" value="Subscribe" ng-click="Subscribe(data, login_user); spinner = true;">
+        <br>
+        <div ng-show="spinner">
+            <i class="fa fa-circle-o-notch fa-spin "></i>
+        </div>
+        {{result}}
+    </div>
+
+
+</body>
+
+</html>

@@ -1881,7 +1881,7 @@ app.controller("LoginCtrl", function(
                             "Email ID not found in App database. Would you like to create an account with this id?"
                         ) == true
                     ) {
-                        $location.path("/register");
+                        $location.path("/signup");
                         return;
                     }
                 } else {

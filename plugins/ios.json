@@ -22,6 +22,9 @@
     },
     "cordova-plugin-x-socialsharing": {
       "PACKAGE_NAME": "com.sujoy.donation"
+    },
+    "cordova-plugin-fcm": {
+      "PACKAGE_NAME": "com.sujoy.freecycle"
     }
   },
   "dependent_plugins": {

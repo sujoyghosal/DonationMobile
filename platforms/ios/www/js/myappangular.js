@@ -201,7 +201,10 @@ app.service("UserService", function() {
 var BASEURL_DEV = "https://freecycleapissujoy.mybluemix.net";
 var BASEURL_PROD = "https://sujoyfreecycleeventsapi.mybluemix.net";
 var BASEURL_LOCAL = "http://localhost:9000";
+var BASEURL_PIVOTAL = "http://freecycleapissujoy-horned-erasure.cfapps.io";
+
 var BASEURL = BASEURL_PROD;
+
 var GEOCODEURL = "https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyA_sdHo_cdsKULJF-upFVP26L7zs58_Zfg";
 
 app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $location, $timeout, $window, Notification, UserService, DataService) {
@@ -406,8 +409,6 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
         return icon;
     };
     $scope.TranslateEventToEnglish = function(type) {
-
-        console.log("####Type=" + type);
         if (!type)
             $scope.english = "Emergency Event";
         switch (type.toUpperCase()) {
@@ -435,7 +436,6 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
             default:
                 $scope.english = type;
         }
-        console.log("#####English=" + $scope.english);
         return $scope.english;
     }
     $scope.SendOffer = function(offer) {
@@ -1902,9 +1902,10 @@ app.controller("LoginCtrl", function(
                         $scope.login_email = obj.email;
                         $scope.login_phone = obj.phone;
                         $rootScope.username = obj.fullname;
-                        var socket = io.connect(BASEURL);
+                        //var socket = io.connect(BASEURL);
+                        var socket = io(BASEURL, { transports: ['websocket'] });
                         socket.on('connect', function() {
-                            console.log("#####Setting up listener for alerts");
+                            console.log("#####Connected. Set up listener for alerts!!");
                             socket.on('matchingevent', function(data) {
                                 console.log("####received matching event: " + JSON.stringify(data));
                                 if (!DataService.isValidObject(data) || !DataService.isValidObject(data._data)) {
@@ -1917,14 +1918,12 @@ app.controller("LoginCtrl", function(
                                     for (var i = 0; i < $scope.usergroups.length; i++) {
                                         if ($scope.usergroups[i].name === data._data.group_name) {
                                             //$scope.eventsCount++;
-                                            var msg = JSON.stringify(data._data.items + ", address: " +
-                                                data._data.address + ". Contact " + data._data.postedby + " @ " +
-                                                data._data.phone_number + " or " + data._data.email);
+                                            var msg = JSON.stringify(data._data.items + "@: " +
+                                                data._data.address + ". Contact " + data._data.postedby + ": " +
+                                                data._data.phone_number + " / " + data._data.email);
                                             //swal(JSON.stringify(data._data.eventtype), msg, "success");
-                                            $rootScope.$emit("CallGetEventsMethod", {});
-                                            console.log("####Sending Notification....");
-                                            $scope.sendLocalPush("FreeCycle Alert", msg);
-                                            break;
+                                            $scope.HandleEvent("FreeCycle Alert", msg);
+                                            return;
                                         }
                                     }
                                 }
@@ -1949,14 +1948,15 @@ app.controller("LoginCtrl", function(
         );
     };
 
-    $scope.sendLocalPush = function(title, text) {
-        /*cordova.plugins.notification.local.schedule({
+    $scope.HandleEvent = function(title, text) {
+        cordova.plugins.notification.local.schedule({
             title: title,
             text: text,
             foreground: true
-        });*/
-        //swal(title, text, "success");
+        });
+        console.log("####Handling matching event...");
         Notification.info({ message: text, title: title, positionY: 'top', positionX: 'center', delay: 7000 });
+        $rootScope.$emit("CallGetEventsMethod", {});
     }
     $scope.Logout = function() {
         $scope.login_email = "";

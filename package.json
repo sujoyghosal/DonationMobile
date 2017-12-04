@@ -1,5 +1,5 @@
 {
-  "name": "com.sujoy.donation",
+  "name": "com.sujoy.freecycle",
   "displayName": "DonationApp",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
@@ -13,6 +13,7 @@
     "cordova-ios": "^4.5.3",
     "cordova-plugin-badge": "^0.8.5",
     "cordova-plugin-device": "^1.1.7",
+    "cordova-plugin-fcm": "git+https://github.com/fechanique/cordova-plugin-fcm.git",
     "cordova-plugin-ios-camera-permissions": "git+https://github.com/Cordobo/cordova-plugin-ios-camera-permissions.git",
     "cordova-plugin-local-notification": "git+https://github.com/katzer/cordova-plugin-local-notifications.git",
     "cordova-plugin-whitelist": "^1.3.2",
@@ -29,7 +30,8 @@
         "PHOTOLIBRARY_ADD_USAGE_DESCRIPTION": "This app needs write-access to photo library",
         "PHOTOLIBRARY_USAGE_DESCRIPTION": "This app needs read/write-access photo library access"
       },
-      "cordova-plugin-x-socialsharing": {}
+      "cordova-plugin-x-socialsharing": {},
+      "cordova-plugin-fcm": {}
     },
     "platforms": [
       "ios"

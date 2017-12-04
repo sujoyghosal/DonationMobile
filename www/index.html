@@ -25,6 +25,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-notification/0.3.6/angular-ui-notification.min.css">
     <link rel="stylesheet" href="css/landing-page.css" media="screen" type="text/css" />
     <script>
+        FCMPlugin.onNotification(function(data) {
+            if (data.wasTapped) {
+                //Notification was received on device tray and tapped by the user.
+                alert(JSON.stringify(data));
+            } else {
+                //Notification was received in foreground. Maybe the user needs to be notified.
+                alert(JSON.stringify(data));
+            }
+        });
+    </script>
+    <script>
         // Script to open and close sidebar
         function w3_open() {
             document.getElementById("mySidebar").style.display = "block";

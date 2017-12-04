@@ -55,6 +55,14 @@ module.exports = [
     "clobbers": [
       "window.plugins.socialsharing"
     ]
+  },
+  {
+    "id": "cordova-plugin-fcm.FCMPlugin",
+    "file": "plugins/cordova-plugin-fcm/www/FCMPlugin.js",
+    "pluginId": "cordova-plugin-fcm",
+    "clobbers": [
+      "FCMPlugin"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -66,7 +74,8 @@ module.exports.metadata =
   "cordova-plugin-local-notification": "0.9.0-beta.1",
   "cordova-plugin-whitelist": "1.3.2",
   "es6-promise-plugin": "4.1.0",
-  "cordova-plugin-x-socialsharing": "5.2.1"
+  "cordova-plugin-x-socialsharing": "5.2.1",
+  "cordova-plugin-fcm": "2.1.2"
 };
 // BOTTOM OF METADATA
 });

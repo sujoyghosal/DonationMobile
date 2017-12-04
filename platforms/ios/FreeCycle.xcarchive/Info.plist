@@ -7,7 +7,7 @@
 		<key>ApplicationPath</key>
 		<string>Applications/FreeCycle.app</string>
 		<key>CFBundleIdentifier</key>
-		<string>com.sujoy.donation</string>
+		<string>com.sujoy.freecycle</string>
 		<key>CFBundleShortVersionString</key>
 		<string>1.0.0</string>
 		<key>CFBundleVersion</key>
@@ -18,7 +18,7 @@
 	<key>ArchiveVersion</key>
 	<integer>2</integer>
 	<key>CreationDate</key>
-	<date>2017-11-29T08:56:38Z</date>
+	<date>2017-12-04T10:09:48Z</date>
 	<key>Name</key>
 	<string>FreeCycle</string>
 	<key>SchemeName</key>

@@ -14,11 +14,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		+8FQ8VX2yIOyaYuL/9IA8RcsBGM=
+		Fq11IZ4NupDbUtVb2FphEDrbdrk=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		hAGWnEINX6ywTqvNxrRtYKOC59s=
+		gYQs01Iu2AsHfAAJoHMWc8SlVlo=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		KLyak/fvsWzXBjFgOi0lGAd0bdw=
+		sEKko0tqI0+d3Q7xpKbHQElQiEM=
 		</data>
 		<key>Default-568h@2x.png</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		4Wq+4uE9nfqRD1xrvxvFPWPVxf8=
+		IombrqutZhTnuAEqH/HSs9m59i0=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -182,7 +182,7 @@
 		</data>
 		<key>www/js/myappangular.js</key>
 		<data>
-		d/lxqqQbFZU7edJC+bAozAEKcck=
+		tKLw+C6LLps2UMyg6O6O/510E8M=
 		</data>
 		<key>www/plugins/cordova-plugin-badge/www/badge.js</key>
 		<data>
@@ -245,22 +245,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+8FQ8VX2yIOyaYuL/9IA8RcsBGM=
+			Fq11IZ4NupDbUtVb2FphEDrbdrk=
 			</data>
 			<key>hash2</key>
 			<data>
-			byojtRD88w0+jefl+rpAcKflp3U1oKUuBDssA1zxxvA=
+			y4o0yorLcWmeAtmAznQwlFIMW9FDCYv5lqHXsEg1hWE=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hAGWnEINX6ywTqvNxrRtYKOC59s=
+			gYQs01Iu2AsHfAAJoHMWc8SlVlo=
 			</data>
 			<key>hash2</key>
 			<data>
-			auS+Fu6hsJSQkSntGiZjhBeyNo1qe9M+IlIvp2mtQdY=
+			l57JqmXwfrNk/wHnpfg6jWEiQkITxSwUGrMeDE3hvTg=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -278,11 +278,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KLyak/fvsWzXBjFgOi0lGAd0bdw=
+			sEKko0tqI0+d3Q7xpKbHQElQiEM=
 			</data>
 			<key>hash2</key>
 			<data>
-			eHEVr6X7ki/Auao7o4xIuMJ9GjbvBUSPo68a04HoE7w=
+			ampYMSZsR9O+j4qpuP4/KFuYFd2FYZc8uLyQE3oycN0=
 			</data>
 		</dict>
 		<key>Default-568h@2x.png</key>
@@ -311,11 +311,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4Wq+4uE9nfqRD1xrvxvFPWPVxf8=
+			IombrqutZhTnuAEqH/HSs9m59i0=
 			</data>
 			<key>hash2</key>
 			<data>
-			VSLQoK1YOO2o6DGcfYGKBeBcBLLw9y1rGuk84R4o48I=
+			WAsVKlxwZ7H49uQAVWqEitrhbiqOW27Zwbdrsa9B49E=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -685,11 +685,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			d/lxqqQbFZU7edJC+bAozAEKcck=
+			tKLw+C6LLps2UMyg6O6O/510E8M=
 			</data>
 			<key>hash2</key>
 			<data>
-			GYQ708xc6/ZTt0vQl/dSoEQmPFsT/HZj0q+RZ2c8PEE=
+			quIX0pZITdp5PiaW8xuRctc87b5FRJovFvuKgFejaPM=
 			</data>
 		</dict>
 		<key>www/plugins/cordova-plugin-badge/www/badge.js</key>

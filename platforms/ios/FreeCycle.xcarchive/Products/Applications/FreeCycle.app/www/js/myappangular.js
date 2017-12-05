@@ -198,12 +198,11 @@ app.service("UserService", function() {
     };
 });
 
-var BASEURL_DEV = "https://freecycleapissujoy.mybluemix.net";
-var BASEURL_PROD = "https://sujoyfreecycleeventsapi.mybluemix.net";
+var BASEURL_BLUEMIX = "https://freecycleapissujoy.mybluemix.net";
 var BASEURL_LOCAL = "http://localhost:9000";
 var BASEURL_PIVOTAL = "http://freecycleapissujoy-horned-erasure.cfapps.io";
 
-var BASEURL = BASEURL_PROD;
+var BASEURL = BASEURL_BLUEMIX;
 
 var GEOCODEURL = "https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyA_sdHo_cdsKULJF-upFVP26L7zs58_Zfg";
 
@@ -1400,7 +1399,10 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
                 $scope.showmyevents = true;
                 console.log("GetGroupsForUser success");
                 $scope.usergroups = response.data;
-                // $scope.found  = "Active donation offers for " + param_name;
+                for (var i = 0; i < $scope.usergroups.length; i++) {
+                    console.log("Adding  FCMPlugin subscription to topic: " + $scope.usergroups[i]);
+                    FCMPlugin.subscribeToTopic($scope.usergroups[i]);
+                }
             },
             function errorCallback(error) {
                 // called asynchronously if an error occurs
@@ -1955,7 +1957,7 @@ app.controller("LoginCtrl", function(
             foreground: true
         });
         console.log("####Handling matching event...");
-        Notification.info({ message: text, title: title, positionY: 'top', positionX: 'center', delay: 7000 });
+        Notification.info({ message: text, title: title, positionY: 'bottom', positionX: 'center', delay: 7000 });
         $rootScope.$emit("CallGetEventsMethod", {});
     }
     $scope.Logout = function() {

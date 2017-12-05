@@ -198,12 +198,11 @@ app.service("UserService", function() {
     };
 });
 
-var BASEURL_DEV = "https://freecycleapissujoy.mybluemix.net";
-var BASEURL_PROD = "https://sujoyfreecycleeventsapi.mybluemix.net";
+var BASEURL_BLUEMIX = "https://freecycleapissujoy.mybluemix.net";
 var BASEURL_LOCAL = "http://localhost:9000";
 var BASEURL_PIVOTAL = "http://freecycleapissujoy-horned-erasure.cfapps.io";
 
-var BASEURL = BASEURL_PROD;
+var BASEURL = BASEURL_BLUEMIX;
 
 var GEOCODEURL = "https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyA_sdHo_cdsKULJF-upFVP26L7zs58_Zfg";
 
@@ -1400,7 +1399,10 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
                 $scope.showmyevents = true;
                 console.log("GetGroupsForUser success");
                 $scope.usergroups = response.data;
-                // $scope.found  = "Active donation offers for " + param_name;
+                /*for (var i = 0; i < $scope.usergroups.length; i++) {
+                    console.log("Adding  FCMPlugin subscription to topic: " + $scope.usergroups[i].name);
+                    FCMPlugin.subscribeToTopic("topic" + i);
+                }*/
             },
             function errorCallback(error) {
                 // called asynchronously if an error occurs
@@ -1916,11 +1918,11 @@ app.controller("LoginCtrl", function(
                                     return;
                                 } else {
                                     for (var i = 0; i < $scope.usergroups.length; i++) {
-                                        if ($scope.usergroups[i].name === data._data.group_name) {
+                                        if ($scope.usergroups[i].name === data.entities[0].group_name) {
                                             //$scope.eventsCount++;
-                                            var msg = JSON.stringify(data._data.items + "@: " +
-                                                data._data.address + ". Contact " + data._data.postedby + ": " +
-                                                data._data.phone_number + " / " + data._data.email);
+                                            var msg = JSON.stringify(data.entities[0].items + "@: " +
+                                                data.entities[0].address + ". Contact " + data.entities[0].postedby + ": " +
+                                                data.entities[0].phone_number + " / " + data.entities[0].email);
                                             //swal(JSON.stringify(data._data.eventtype), msg, "success");
                                             $scope.HandleEvent("FreeCycle Alert", msg);
                                             return;
@@ -1949,13 +1951,13 @@ app.controller("LoginCtrl", function(
     };
 
     $scope.HandleEvent = function(title, text) {
-        cordova.plugins.notification.local.schedule({
+        /*cordova.plugins.notification.local.schedule({
             title: title,
             text: text,
             foreground: true
-        });
+        });*/
         console.log("####Handling matching event...");
-        Notification.info({ message: text, title: title, positionY: 'top', positionX: 'center', delay: 7000 });
+        Notification.info({ message: text, title: title, positionY: 'bottom', positionX: 'center', delay: 7000 });
         $rootScope.$emit("CallGetEventsMethod", {});
     }
     $scope.Logout = function() {

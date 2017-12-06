@@ -1400,7 +1400,7 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
                 //FCMPlugin.subscribeToTopic('topicExample');
                 for (var i = 0; i < $scope.usergroups.length; i++) {
                     console.log("Adding  FCMPlugin subscription to topic: " + $scope.usergroups[i].name);
-                    FCMPlugin.subscribeToTopic($scope.usergroups[i].name);
+                    FCMPlugin.subscribeToTopic($scope.usergroups[i].name.replace(/-/g, ' '));
                 }
 
             },

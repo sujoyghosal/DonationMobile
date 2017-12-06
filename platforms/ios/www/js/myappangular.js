@@ -1398,10 +1398,10 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
                 console.log("GetGroupsForUser success");
                 $scope.usergroups = response.data;
                 //FCMPlugin.subscribeToTopic('topicExample');
-                /*for (var i = 0; i < $scope.usergroups.length; i++) {
+                for (var i = 0; i < $scope.usergroups.length; i++) {
                     console.log("Adding  FCMPlugin subscription to topic: " + $scope.usergroups[i].name);
-                    FCMPlugin.subscribeToTopic("topic" + i);
-                }*/
+                    FCMPlugin.subscribeToTopic($scope.usergroups[i].name.replace(/-/g, ' '));
+                }
 
             },
             function errorCallback(error) {

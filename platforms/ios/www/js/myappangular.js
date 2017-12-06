@@ -201,9 +201,7 @@ app.service("UserService", function() {
 var BASEURL_BLUEMIX = "https://freecycleapissujoy.mybluemix.net";
 var BASEURL_LOCAL = "http://localhost:9000";
 var BASEURL_PIVOTAL = "http://freecycleapissujoy-horned-erasure.cfapps.io";
-
 var BASEURL = BASEURL_BLUEMIX;
-
 var GEOCODEURL = "https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyA_sdHo_cdsKULJF-upFVP26L7zs58_Zfg";
 
 app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $location, $timeout, $window, Notification, UserService, DataService) {
@@ -1399,10 +1397,12 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
                 $scope.showmyevents = true;
                 console.log("GetGroupsForUser success");
                 $scope.usergroups = response.data;
+                //FCMPlugin.subscribeToTopic('topicExample');
                 /*for (var i = 0; i < $scope.usergroups.length; i++) {
                     console.log("Adding  FCMPlugin subscription to topic: " + $scope.usergroups[i].name);
                     FCMPlugin.subscribeToTopic("topic" + i);
                 }*/
+
             },
             function errorCallback(error) {
                 // called asynchronously if an error occurs
@@ -1970,7 +1970,7 @@ app.controller("LoginCtrl", function(
         $location.path("/register");
     };
 });
-app.controller("RegisterCtrl", function($scope, $http, $location, UserService, DataService, Notification) {
+app.controller("RegisterCtrl", function($scope, $http, $location, $window, UserService, DataService, Notification) {
     $scope.spinner = false;
     $scope.login_fullname = UserService.getLoggedIn().fullname;
     $scope.login_email = UserService.getLoggedIn().email;
@@ -2131,5 +2131,8 @@ app.controller("RegisterCtrl", function($scope, $http, $location, UserService, D
                 Notification.error({ message: "Error processing this request. Please try again later!", positionY: 'bottom', positionX: 'center' });
             }
         );
+    }
+    $scope.Back = function() {
+        $window.history.back();
     }
 });

@@ -25,6 +25,9 @@
     },
     "cordova-plugin-fcm": {
       "PACKAGE_NAME": "com.sujoy.freecycle"
+    },
+    "phonegap-plugin-push": {
+      "PACKAGE_NAME": "com.sujoy.freecycle"
     }
   },
   "dependent_plugins": {

@@ -18,7 +18,8 @@
     "cordova-plugin-local-notification": "git+https://github.com/katzer/cordova-plugin-local-notifications.git",
     "cordova-plugin-whitelist": "^1.3.2",
     "cordova-plugin-x-socialsharing": "git+https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git",
-    "es6-promise-plugin": "^4.1.0"
+    "es6-promise-plugin": "^4.1.0",
+    "phonegap-plugin-push": "git+https://github.com/phonegap/phonegap-plugin-push.git"
   },
   "cordova": {
     "plugins": {
@@ -31,7 +32,8 @@
         "PHOTOLIBRARY_USAGE_DESCRIPTION": "This app needs read/write-access photo library access"
       },
       "cordova-plugin-x-socialsharing": {},
-      "cordova-plugin-fcm": {}
+      "cordova-plugin-fcm": {},
+      "phonegap-plugin-push": {}
     },
     "platforms": [
       "ios"

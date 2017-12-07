@@ -27,6 +27,10 @@
             {
               "xml": "<feature name=\"FCMPlugin\"><param name=\"ios-package\" value=\"FCMPlugin\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"PushNotification\"><param name=\"ios-package\" value=\"PushPlugin\" /></feature>",
+              "count": 1
             }
           ]
         }
@@ -60,6 +64,12 @@
               "xml": "<string>This app needs read/write-access photo library access</string>",
               "count": 1
             }
+          ],
+          "UIBackgroundModes": [
+            {
+              "xml": "<array><string>remote-notification</string></array>",
+              "count": 1
+            }
           ]
         }
       },
@@ -74,6 +84,26 @@
         }
       },
       "*/Entitlements-Release.plist": {
+        "parents": {
+          "aps-environment": [
+            {
+              "xml": "<string>production</string>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "*-Debug.plist": {
+        "parents": {
+          "aps-environment": [
+            {
+              "xml": "<string>development</string>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "*-Release.plist": {
         "parents": {
           "aps-environment": [
             {
@@ -112,6 +142,9 @@
       "PACKAGE_NAME": "com.sujoy.freecycle"
     },
     "cordova-plugin-fcm": {
+      "PACKAGE_NAME": "com.sujoy.freecycle"
+    },
+    "phonegap-plugin-push": {
       "PACKAGE_NAME": "com.sujoy.freecycle"
     }
   },
@@ -180,6 +213,14 @@
       "clobbers": [
         "FCMPlugin"
       ]
+    },
+    {
+      "id": "phonegap-plugin-push.PushNotification",
+      "file": "plugins/phonegap-plugin-push/www/push.js",
+      "pluginId": "phonegap-plugin-push",
+      "clobbers": [
+        "PushNotification"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -190,6 +231,7 @@
     "cordova-plugin-whitelist": "1.3.2",
     "es6-promise-plugin": "4.1.0",
     "cordova-plugin-x-socialsharing": "5.2.1",
-    "cordova-plugin-fcm": "2.1.2"
+    "cordova-plugin-fcm": "2.1.2",
+    "phonegap-plugin-push": "2.1.2"
   }
 }

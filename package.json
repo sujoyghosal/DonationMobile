@@ -11,20 +11,15 @@
   "license": "Apache-2.0",
   "dependencies": {
     "cordova-ios": "^4.5.3",
-    "cordova-plugin-badge": "^0.8.5",
-    "cordova-plugin-device": "^1.1.7",
     "cordova-plugin-fcm": "git+https://github.com/fechanique/cordova-plugin-fcm.git",
     "cordova-plugin-ios-camera-permissions": "git+https://github.com/Cordobo/cordova-plugin-ios-camera-permissions.git",
-    "cordova-plugin-local-notification": "git+https://github.com/katzer/cordova-plugin-local-notifications.git",
     "cordova-plugin-whitelist": "^1.3.2",
     "cordova-plugin-x-socialsharing": "git+https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git",
-    "es6-promise-plugin": "^4.1.0",
-    "phonegap-plugin-push": "git+https://github.com/phonegap/phonegap-plugin-push.git"
+    "es6-promise-plugin": "^4.1.0"
   },
   "cordova": {
     "plugins": {
       "cordova-plugin-whitelist": {},
-      "cordova-plugin-local-notification": {},
       "cordova-plugin-ios-camera-permissions": {
         "CAMERA_USAGE_DESCRIPTION": "This app needs camera access",
         "MICROPHONE_USAGE_DESCRIPTION": "This app needs microphone access",
@@ -32,8 +27,7 @@
         "PHOTOLIBRARY_USAGE_DESCRIPTION": "This app needs read/write-access photo library access"
       },
       "cordova-plugin-x-socialsharing": {},
-      "cordova-plugin-fcm": {},
-      "phonegap-plugin-push": {}
+      "cordova-plugin-fcm": {}
     },
     "platforms": [
       "ios"

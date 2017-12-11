@@ -21,10 +21,10 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
+        <resource-file src="GoogleService-Info.plist" />
     </platform>
     <engine name="ios" spec="^4.5.3" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.2" />
-    <plugin name="cordova-plugin-local-notification" spec="git+https://github.com/katzer/cordova-plugin-local-notifications.git" />
     <plugin name="cordova-plugin-ios-camera-permissions" spec="git+https://github.com/Cordobo/cordova-plugin-ios-camera-permissions.git">
         <variable name="CAMERA_USAGE_DESCRIPTION" value="This app needs camera access" />
         <variable name="MICROPHONE_USAGE_DESCRIPTION" value="This app needs microphone access" />
@@ -33,5 +33,4 @@
     </plugin>
     <plugin name="cordova-plugin-x-socialsharing" spec="git+https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git" />
     <plugin name="cordova-plugin-fcm" spec="git+https://github.com/fechanique/cordova-plugin-fcm.git" />
-    <plugin name="phonegap-plugin-push" spec="git+https://github.com/phonegap/phonegap-plugin-push.git" />
 </widget>

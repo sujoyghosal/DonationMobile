@@ -230,6 +230,7 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
     //$scope.eventsCount = 0;
     $rootScope.mobileDevice = true;
     $scope.events = [];
+    $scope.emergency = false;
     var today = new Date().toISOString().slice(0, 10);
     $scope.today = {
         value: today
@@ -412,29 +413,41 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
         switch (type.toUpperCase().trim()) {
             case "BLOOD":
                 $scope.english = "Blood Needed";
+                $scope.emergency = true;
                 break;
             case "MEDICAL":
                 $scope.english = "Medical Needs";
+                $scope.emergency = true;
                 break;
             case "DISASTER":
                 $scope.english = "Natural Disaster";
+                $scope.emergency = true;
                 break;
             case "TERRORISM":
                 $scope.english = "Terror Attack";
+                $scope.emergency = true;
                 break;
             case "ACCIDENT":
                 $scope.english = "Accident";
+                $scope.emergency = true;
                 break;
             case "SAFETY":
                 $scope.english = "Incident";
+                $scope.emergency = true;
                 break;
             case "OTHER":
                 $scope.english = "Other Emergency";
+                $scope.emergency = true;
                 break;
             default:
                 $scope.english = type;
         }
         return $scope.english;
+    }
+    $scope.isEmergency = function(type) {
+        $scope.emergency = false;
+        $scope.TranslateEventToEnglish(type);
+        return $scope.emergency;
     }
     $scope.SendOffer = function(offer) {
         $scope.loginResult = "";

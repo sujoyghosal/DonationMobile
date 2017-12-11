@@ -347,8 +347,9 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
     $scope.english = '';
     $scope.GetFontAwesomeIconsForCategory = function(category) {
         var icon = '';
-
-        switch (category) {
+        if (!category || category.length < 4)
+            return "fa fa-star";
+        switch (category.trim()) {
             case "Electronics":
                 icon = "fa fa-mobile";
                 break;
@@ -408,7 +409,7 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
     $scope.TranslateEventToEnglish = function(type) {
         if (!type)
             $scope.english = "Emergency Event";
-        switch (type.toUpperCase()) {
+        switch (type.toUpperCase().trim()) {
             case "BLOOD":
                 $scope.english = "Blood Needed";
                 break;

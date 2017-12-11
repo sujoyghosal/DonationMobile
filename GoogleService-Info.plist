@@ -11,7 +11,7 @@
 	<key>REVERSED_CLIENT_ID</key>
 	<string>com.googleusercontent.apps.991979531146-h1sblud8u6nav1i0eqbt4beqir7omlc3</string>
 	<key>API_KEY</key>
-	<string>AAAA5vaWa4o:APA91bGdenh15KUIJVAKISsHLNCgPLka_Npdal5v8YsZnK2lEps5E6Bc0ImAka8zytn1D5t_t0iZSlfqVNSJFTkXYPA3PIhG-3a7qtKDeHfMF3MQNctwW4Dnw2vObuqFeY7zMj62Qud9</string>
+	<string>AIzaSyDcErii8V6HZ2MrueQeZfnP2YsmsiOh0ys</string>
 	<key>GCM_SENDER_ID</key>
 	<string>991979531146</string>
 	<key>PLIST_VERSION</key>
@@ -23,15 +23,15 @@
 	<key>STORAGE_BUCKET</key>
 	<string>freecycle-5fdb0.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_GCM_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:991979531146:ios:b736d690897ec574</string>
 	<key>DATABASE_URL</key>

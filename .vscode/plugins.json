@@ -1,1 +1,1 @@
-{"plugins":["cordova-plugin-whitelist","cordova-plugin-device","cordova-plugin-badge","cordova-plugin-local-notification","cordova-plugin-ios-camera-permissions","cordova-plugin-x-socialsharing","es6-promise-plugin","cordova-plugin-fcm"]}
+{"plugins":["cordova-plugin-whitelist","cordova-plugin-device","cordova-plugin-badge","cordova-plugin-ios-camera-permissions","cordova-plugin-x-socialsharing","es6-promise-plugin","cordova-plugin-fcm"]}

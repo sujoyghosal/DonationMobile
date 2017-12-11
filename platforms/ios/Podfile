@@ -2,5 +2,5 @@
 platform :ios, '8.0'
 target 'FreeCycle' do
 	project 'FreeCycle.xcodeproj'
-	pod 'FirebaseMessaging', '~> 2.0.0'
+
 end

@@ -50,7 +50,7 @@
     "/"
   ],
   "_resolved": "git+https://github.com/fechanique/cordova-plugin-fcm.git#037cb5bc6cc17247c46dd433f3440e080f5f1a62",
-  "_shasum": "7d9527311ed001ddf29b965dbee9e8fc1c936c8a",
+  "_shasum": "b1b5bd6554edbd944a5b9ad9bcd5b06a76de0f16",
   "_shrinkwrap": null,
   "_spec": "https://github.com/fechanique/cordova-plugin-fcm.git",
   "_where": "/Users/sujoyghosal/Desktop/apps/Donation/cordova",

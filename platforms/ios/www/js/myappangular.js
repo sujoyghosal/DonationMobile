@@ -1879,7 +1879,7 @@ app.controller("LoginCtrl", function(
                     $scope.loginResult = "Id Not Found";
 
                     if (
-                        window.confirm(
+                        confirm(
                             "Email ID not found in App database. Would you like to create an account with this id?"
                         ) == true
                     ) {
@@ -1910,10 +1910,10 @@ app.controller("LoginCtrl", function(
                             console.log("#####Connected. Set up listener for alerts!!");
                             socket.on('matchingevent', function(data) {
                                 console.log("####received matching event: " + JSON.stringify(data));
-                                if (!DataService.isValidObject(data) || !DataService.isValidObject(data._data)) {
+                                if (!DataService.isValidObject(data) || !DataService.isValidArray(data.entities)) {
                                     console.log("#####received matching event but no data!");
                                     return;
-                                } else if (UserService.getLoggedIn().email === data._data.email) {
+                                } else if (UserService.getLoggedIn().email === data.entities[0].email) {
                                     console.log("#####received matching event created by self!");
                                     return;
                                 } else {
@@ -1952,7 +1952,7 @@ app.controller("LoginCtrl", function(
 
     $scope.HandleEvent = function(title, text) {
         /*cordova.plugins.notification.local.schedule({
-            title: title,
+            title: "From Plugin: " + title,
             text: text,
             foreground: true
         });*/

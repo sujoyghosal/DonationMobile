@@ -45,10 +45,6 @@
     <string>This app requires photo library access to function properly.</string>
     <key>NSPhotoLibraryUsageDescription</key>
     <string>This app needs read/write-access photo library access</string>
-    <key>UIBackgroundModes</key>
-    <array>
-      <string>remote-notification</string>
-    </array>
     <key>UIRequiresFullScreen</key>
     <true/>
     <key>UISupportedInterfaceOrientations</key>

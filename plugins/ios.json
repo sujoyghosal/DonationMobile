@@ -14,9 +14,6 @@
       "PHOTOLIBRARY_USAGE_DESCRIPTION": "This app needs read/write-access photo library access",
       "PACKAGE_NAME": "com.sujoy.donation"
     },
-    "cordova-plugin-local-notification": {
-      "PACKAGE_NAME": "com.sujoy.donation"
-    },
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.sujoy.donation"
     },
@@ -25,18 +22,9 @@
     },
     "cordova-plugin-fcm": {
       "PACKAGE_NAME": "com.sujoy.freecycle"
-    },
-    "phonegap-plugin-push": {
-      "PACKAGE_NAME": "com.sujoy.freecycle"
     }
   },
   "dependent_plugins": {
-    "cordova-plugin-badge": {
-      "PACKAGE_NAME": "com.sujoy.donation"
-    },
-    "cordova-plugin-device": {
-      "PACKAGE_NAME": "com.sujoy.donation"
-    },
     "es6-promise-plugin": {
       "PACKAGE_NAME": "com.sujoy.donation"
     }

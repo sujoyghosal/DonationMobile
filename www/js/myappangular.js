@@ -1460,11 +1460,14 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
                 $scope.showmyevents = true;
                 console.log("GetGroupsForUser success");
                 $scope.usergroups = response.data;
+
                 //FCMPlugin.subscribeToTopic('topicExample');
-                /*for (var i = 0; i < $scope.usergroups.length; i++) {
-                    console.log("Adding  FCMPlugin subscription to topic: " + $scope.usergroups[i].name);
-                    FCMPlugin.subscribeToTopic($scope.usergroups[i].name.replace(/-/g, ' '));
-                }*/
+                if ($rootScope.mobileDevice) {
+                    for (var i = 0; i < $scope.usergroups.length; i++) {
+                        console.log("Adding  FCMPlugin subscription to topic: " + $scope.usergroups[i].name);
+                        FCMPlugin.subscribeToTopic($scope.usergroups[i].name.replace(/-/g, '_'));
+                    }
+                }
             },
             function errorCallback(error) {
                 // called asynchronously if an error occurs
@@ -1476,6 +1479,10 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
         );
     };
     $scope.DeleteGroupForUser = function(group) {
+        if (!group || group.length < 2) {
+            console.log("####Invalid Group Name Received in DeleteGroupForUser");
+            return;
+        }
         $scope.spinner = true;
         $scope.showmyevents = false;
         //first create group with id=<city>-<place>
@@ -1492,6 +1499,10 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
                 // when the response is available
                 $scope.spinner = false;
                 $scope.showmyevents = true;
+                if ($rootScope.mobileDevice) {
+                    console.log("Deleting  FCMPlugin subscription to topic: " + group);
+                    FCMPlugin.unsubscribeFromTopic(group.replace(/-/g, '_'));
+                }
                 Notification.success({ message: "Successfully removed this subscription!", positionY: 'bottom', positionX: 'center' });
                 $scope.GetGroupsForUser();
                 // $scope.found  = "Active donation offers for " + param_name;
@@ -1909,6 +1920,7 @@ app.controller("LoginCtrl", function(
 ) {
     $scope.spinner = false;
     $scope.isCollapsed = true;
+    $rootScope.mobileDevice = true;
     $scope.isVisible = function() {
         return ("/login" !== $location.path() && "/signup" !== $location.path() && "/resetpw" !== $location.path());
     };
@@ -1996,6 +2008,8 @@ app.controller("LoginCtrl", function(
                         });
                         $rootScope.$emit("CallGetEventsMethod", {});
                         $rootScope.$emit("CallGetGroupsForUserMethod", {});
+                        //console.log("#####Trying FCM Plugin Topic Registration...");
+                        //FCMPlugin.subscribeToTopic('topicExample');
                         $location.path("/home");
                         return;
                     }

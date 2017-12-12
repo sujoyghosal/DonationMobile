@@ -264,6 +264,9 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
 
             $location.path("/login");
             return;
+        } else if (UserService.getLoggedInStatus() && "/login" == $location.path()) {
+            $location.path("/home");
+            return;
         }
 
     });
@@ -2180,8 +2183,12 @@ app.controller("RegisterCtrl", function($scope, $http, $location, $window, UserS
                 // this callback will be called asynchronously
                 // when the response is available
                 $scope.spinner = false;
-                $scope.result = "An email has been sent with the password reset link.";
                 console.log("SendResetPasswordRequest response: " + JSON.stringify(response));
+                if (DataService.isValidObject(response) && (response.data) && response.data == "Email Not Found") {
+                    Notification.error({ message: "Error processing this request. Please check the email address!", positionY: 'bottom', positionX: 'center' });
+                } else {
+                    Notification.success({ message: "An email has been sent with the password reset link.", positionY: 'bottom', positionX: 'center' });
+                }
             },
             function errorCallback(error) {
                 // called asynchronously if an error occurs

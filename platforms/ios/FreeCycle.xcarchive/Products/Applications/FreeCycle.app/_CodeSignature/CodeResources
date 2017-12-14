@@ -102,11 +102,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		zWyU/IopsUx9FTEMkF5B/TozqME=
+		Y41cvQyInc1+TunQ0b501eb/0i4=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		FIhtYP5e8kRXflr43pvrP8/t13k=
+		BZMeYN4R1rQjwAit0KsEQY5f3Vo=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		BiBkUzUOP5kJ6w1VvDb/gCavF1c=
+		OTjNKflcGSGfOjSlF0jJq2ZUldA=
 		</data>
 		<key>Default-568h@2x.png</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		0kcht7mEj4flBbLwY2fVF2KfnIg=
+		NNKoGK5Syv064GHcyAG37d5gscY=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -266,7 +266,11 @@
 		</data>
 		<key>www/js/myappangular.js</key>
 		<data>
-		WBLfHc+6mToB520bUXDtRdvaCdM=
+		2fkZC3PQ1B/zrJGdFBsWc4AeIVs=
+		</data>
+		<key>www/js/myappangular.js.bak</key>
+		<data>
+		3fHDylby/pnd/ktWAhBwnRARBqI=
 		</data>
 		<key>www/plugins/cordova-plugin-fcm/www/FCMPlugin.js</key>
 		<data>
@@ -551,22 +555,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zWyU/IopsUx9FTEMkF5B/TozqME=
+			Y41cvQyInc1+TunQ0b501eb/0i4=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZnErRqGrk4KZ8mNPS88xano893GZsrDEN+TcXFyV9H0=
+			sLAUWz29JsYAjq3HLA8Kt1nriJa07Cz4zYMCuwydAew=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FIhtYP5e8kRXflr43pvrP8/t13k=
+			BZMeYN4R1rQjwAit0KsEQY5f3Vo=
 			</data>
 			<key>hash2</key>
 			<data>
-			WCyqMaPKL6Tgo/QkBT97SU8RrJyCQspNXGtxqKauIyY=
+			5ZuyMNvBoQFu7Pv3lZkK9p3t5BUQRxHk75Ku7hP3HIc=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -584,11 +588,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BiBkUzUOP5kJ6w1VvDb/gCavF1c=
+			OTjNKflcGSGfOjSlF0jJq2ZUldA=
 			</data>
 			<key>hash2</key>
 			<data>
-			9fHarW2oS13rYMtKafeE27uy8RF5urcud7LVu8XbH+c=
+			rlg0JsmPJqx/RMBO2AkRrOYZYcBuwQJ2NWRDRk2qoNM=
 			</data>
 		</dict>
 		<key>Default-568h@2x.png</key>
@@ -617,11 +621,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0kcht7mEj4flBbLwY2fVF2KfnIg=
+			NNKoGK5Syv064GHcyAG37d5gscY=
 			</data>
 			<key>hash2</key>
 			<data>
-			G9UnTT0pq+2S0X0iooSuN51i1rn17mZ3z1QQ2qypa5w=
+			k/3Tffjx5EsbrW6GMUksRCzFadr+ub7RasxCATgFshU=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -980,11 +984,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WBLfHc+6mToB520bUXDtRdvaCdM=
+			2fkZC3PQ1B/zrJGdFBsWc4AeIVs=
 			</data>
 			<key>hash2</key>
 			<data>
-			m382Vnz3biA+jaKUNO7iue4MB9AT3VMeLAJWmQKxANQ=
+			Q+YOJtV8LLv9Jv5yk+acPz++m8MT5E7mUWurgl176sY=
+			</data>
+		</dict>
+		<key>www/js/myappangular.js.bak</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3fHDylby/pnd/ktWAhBwnRARBqI=
+			</data>
+			<key>hash2</key>
+			<data>
+			2scfwHhQJKZrIwZUdrLid8LGZwetbZLtVlxmrnvslac=
 			</data>
 		</dict>
 		<key>www/plugins/cordova-plugin-fcm/www/FCMPlugin.js</key>

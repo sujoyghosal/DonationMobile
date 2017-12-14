@@ -201,8 +201,9 @@ app.service("UserService", function() {
 var BASEURL_BLUEMIX = "https://freecycleapissujoy.mybluemix.net";
 var BASEURL_LOCAL = "http://localhost:9000";
 var BASEURL_PIVOTAL = "http://freecycleapissujoy-horned-erasure.cfapps.io";
+var BASEURL_PERSONAL = "https://freecycleapi.au-syd.mybluemix.net";
 
-var BASEURL = BASEURL_BLUEMIX;
+var BASEURL = BASEURL_PERSONAL;
 
 var GEOCODEURL = "https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyA_sdHo_cdsKULJF-upFVP26L7zs58_Zfg";
 
@@ -229,7 +230,7 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
     var param_name = "";
     $scope.offererUUID = "";
     $scope.reverseSort = false;
-    //$scope.eventsCount = 0;
+    $scope.eventsCount = 0;
     $rootScope.mobileDevice = true;
     $scope.events = [];
     $scope.emergency = false;
@@ -653,8 +654,12 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
         });*/
         //swal(title, text, "success");
         console.log("####Handling matching event..." + text);
+        if (!text || text.length < 2) {
+            console.log("No substantial text for notification..aborting");
+            return;
+        }
         Notification.info({
-            message: text,
+            message: text.replace(/\"$/, "").replace(/\"/, ""),
             title: title,
             positionY: 'top',
             positionX: 'center',
@@ -1392,7 +1397,7 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
                 if (response && response.data && response.data === "No Groups Found") {
                     console.log("No Groups Found");
                     $scope.events = [];
-                    //$scope.eventsCount = 0;
+                    $scope.eventsCount = 0;
                     return;
                 }
                 //console.log("Events Count= " + response.data.length);

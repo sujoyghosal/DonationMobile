@@ -102,11 +102,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		nAanpDrdcW9kS0/gt4VmAo9mjHU=
+		1usOMBI2E/Myoq1Y2pRTH3TwMgc=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		v2PPzRVAJhZRSELMQxpiaM6Cuo0=
+		W4Xe0slcX2Si6lOu1wfYFTZpQEY=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		nsfpTl1zuBnPl/+LeKMdBxxW28o=
+		3g9v5l5XIXrV76HiRXQauDZE1nw=
 		</data>
 		<key>Default-568h@2x.png</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		ACDiw9tTB/7DdPPTSYOK8gS/j34=
+		z07kHW8Dl/SdhfKb6TPdK1F7yJY=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -174,7 +174,7 @@
 		</data>
 		<key>www/Notifications.html</key>
 		<data>
-		NORFLSz9IDHQ9dzHw4pLNp1L8+o=
+		hEXFwBOAQctCLf99wwDunMQsgkM=
 		</data>
 		<key>www/OfferDonation.html</key>
 		<data>
@@ -190,11 +190,7 @@
 		</data>
 		<key>www/Subscribe.html</key>
 		<data>
-		H03oG8KCYMHGLx1cQclVjSsKyiM=
-		</data>
-		<key>www/Unsubscribe.html</key>
-		<data>
-		niUrYU2ECAPv/GucNeKVLIjqTi8=
+		gd9EtlBe8JVyHj3cV0o9qURI1NU=
 		</data>
 		<key>www/UpdateProfile.html</key>
 		<data>
@@ -266,7 +262,7 @@
 		</data>
 		<key>www/js/myappangular.js</key>
 		<data>
-		Km+mJHAWhTasQBCXefl6gxEMghw=
+		oKyTCjrMyNHJChuwoD/7mkFoGTQ=
 		</data>
 		<key>www/js/myappangular.js.bak</key>
 		<data>
@@ -555,22 +551,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nAanpDrdcW9kS0/gt4VmAo9mjHU=
+			1usOMBI2E/Myoq1Y2pRTH3TwMgc=
 			</data>
 			<key>hash2</key>
 			<data>
-			xDlr3woQggwVFQkDqkNfx7ISip6MNCHwPYkDw+fcIKU=
+			JnuX2ucTy/l94JDa9Q0pFCU75GLzQs8LpUmpy6FnRbc=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v2PPzRVAJhZRSELMQxpiaM6Cuo0=
+			W4Xe0slcX2Si6lOu1wfYFTZpQEY=
 			</data>
 			<key>hash2</key>
 			<data>
-			2q27oXRmQnSixYi3gdPXMtNyIxzT5swg9504APwUG0c=
+			CNpR2sVrrTTY84rDzSoX9oMpC9t3uZEJfCWim5MglDg=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -588,11 +584,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nsfpTl1zuBnPl/+LeKMdBxxW28o=
+			3g9v5l5XIXrV76HiRXQauDZE1nw=
 			</data>
 			<key>hash2</key>
 			<data>
-			a8LHf9pzekB2/pOWoBpGfSvv+0knjcVmoAkLLmA0guk=
+			HdeDq5WLMC+lN09pZwN5TwOd+13r6zLHbWzr4bUVoRE=
 			</data>
 		</dict>
 		<key>Default-568h@2x.png</key>
@@ -621,11 +617,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ACDiw9tTB/7DdPPTSYOK8gS/j34=
+			z07kHW8Dl/SdhfKb6TPdK1F7yJY=
 			</data>
 			<key>hash2</key>
 			<data>
-			6S4ppreCPlu+Lg+L+gu5F2RFyMIZwsRdDo1Yq7W8giQ=
+			TXMUQpBNed+mEDWcGsN4DEDqO/ptZEBNNuV7zjQXedQ=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -731,11 +727,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NORFLSz9IDHQ9dzHw4pLNp1L8+o=
+			hEXFwBOAQctCLf99wwDunMQsgkM=
 			</data>
 			<key>hash2</key>
 			<data>
-			eNcjvhVUqF+Te6GfwyQuUvXh3dtYW+A5TeFSYtYKtjg=
+			p8bFBn4FIIjqejwtHotn4ZhIqyRrmkr7iBycSE3qQAY=
 			</data>
 		</dict>
 		<key>www/OfferDonation.html</key>
@@ -775,22 +771,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			H03oG8KCYMHGLx1cQclVjSsKyiM=
+			gd9EtlBe8JVyHj3cV0o9qURI1NU=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZGDPLIz/ExG9WNrwvsGO7mwdktZPWC7GM4MOQAGoAPA=
-			</data>
-		</dict>
-		<key>www/Unsubscribe.html</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			niUrYU2ECAPv/GucNeKVLIjqTi8=
-			</data>
-			<key>hash2</key>
-			<data>
-			GGZPFkcW7Mnj+aX1rSLJ666+pvpdE9a3BGWi9n7ou+E=
+			ocC+A4KnNOQACVC6ISJBe8glphxNwt0ZKhBfpAjuKEg=
 			</data>
 		</dict>
 		<key>www/UpdateProfile.html</key>
@@ -984,11 +969,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Km+mJHAWhTasQBCXefl6gxEMghw=
+			oKyTCjrMyNHJChuwoD/7mkFoGTQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			RzLjsox5quzfc6OS5EU2YCrxLxxDrecv+CiQEc7tsqg=
+			mh4ZVAgB4ijdbZhGqh/sW+b6y9d+PE0jRBaCyymFTp4=
 			</data>
 		</dict>
 		<key>www/js/myappangular.js.bak</key>

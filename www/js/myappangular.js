@@ -1401,7 +1401,7 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
                     $scope.events = [];
                     $scope.eventsCount = 0;
                     $scope.found = "You are not subscribed for notifications. Please select an event first from subscription menu.";
-
+                    $scope.showevents = false;
                     return;
                 }
                 //console.log("Events Count= " + response.data.length);
@@ -1426,6 +1426,7 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
                     $scope.resultEvents = "Found " + $scope.events.length + " events matching your criteria.";
                 } else {
                     $scope.found = "No Notifications Found";
+                    $scope.showevents = false;
                 }
                 $scope.eventsCount = $scope.events.length;
             },
@@ -1434,7 +1435,7 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
                 // or server returns response with an error status.
                 $scope.spinner = false;
                 $scope.groupusers = "ERROR GETTING GROUP USERS ";
-                $scope.alldonations = false;
+                $scope.showevents = false;
                 $scope.found = "Problem fetching notifications. Please try again later.";
             }
         );

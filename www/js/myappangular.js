@@ -74,10 +74,6 @@ app.config([
                 templateUrl: "Subscribe.html",
                 controller: "DonationCtrl"
             })
-            .when("/unsubscribe", {
-                templateUrl: "Unsubscribe.html",
-                controller: "DonationCtrl"
-            })
             .when("/sendnotification", {
                 templateUrl: "SendPush.html",
                 controller: "DonationCtrl"
@@ -1334,7 +1330,7 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
                 console.log("SUCCESS ADDING SUBSCRIPTION TO GROUP " + group);
                 $scope.result = "SUCCESS ADDING SUBSCRIPTION. YOU WILL NOW RECEIVE NOTIFICTAIONS FOR OFFERS OR NEEDS MATCHING THIS CRITERIA ";
                 Notification.success({ message: "SUCCESS ADDING SUBSCRIPTION. YOU WILL NOW RECEIVE NOTIFICTAIONS FOR OFFERS OR NEEDS MATCHING THIS CRITERIA.", title: "Success!", positionY: 'bottom', positionX: 'center', delay: 4000 });
-
+                $rootScope.$emit("CallGetEventsMethod", {});
                 $rootScope.$emit("CallGetGroupsForUserMethod", {});
             },
             function errorCallback(error) {
@@ -1578,8 +1574,9 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
                     FCMPlugin.unsubscribeFromTopic(group.replace(/-/g, '_'));
                 }
                 Notification.success({ message: "Successfully removed this subscription!", positionY: 'bottom', positionX: 'center' });
-                $scope.GetGroupsForUser();
-                // $scope.found  = "Active donation offers for " + param_name;
+                $scope.result = "Successfully removed this subscription!";
+                $rootScope.$emit("CallGetEventsMethod", {});
+                $rootScope.$emit("CallGetGroupsForUserMethod", {});
             },
             function errorCallback(error) {
                 // called asynchronously if an error occurs

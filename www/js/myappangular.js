@@ -264,7 +264,7 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
                 "/createemergency" === $location.path() || "/offershistory" === $location.path())) {
             //console.log("User not logged in for access to " + $location.path());
             /* You can save the user's location to take him back to the same page after he has logged-in */
-            //$rootScope.savedLocation = $location.url();
+            $rootScope.savedLocation = $location.path();
 
             $location.path("/login");
             return;
@@ -2060,7 +2060,7 @@ app.controller("LoginCtrl", function(
                         $rootScope.username = obj.fullname;
                         $rootScope.loggedIn = true;
                         $rootScope.$emit("CallGetGroupsForUserMethod", {});
-                        $location.path("/home");
+                        $location.path($rootScope.savedLocation);
                         return;
                     }
                 }

@@ -102,11 +102,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		p5lsu3+1bGmE1oHrMv7K7QqBSQU=
+		+cjZqX5CYDsETN3TULxj4zP8GeA=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		U/Ep4qCDDkLUELZ5UlEfB9cHyPU=
+		XEgVsF7IO7v9Chw1iGMdMJzgtC0=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		riZ1SXR97ZXYBCD2ht6ge42jS7o=
+		mG8cW/017mDR5LRM5rtuDwuZ2HI=
 		</data>
 		<key>Default-568h@2x.png</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		rm4fqKddZh3443L3xzx6fh5IMbw=
+		vVRHWqhVjW+n0TMWaVV0J++FhRc=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -158,11 +158,11 @@
 		</data>
 		<key>www/ListDonations.html</key>
 		<data>
-		EqxcReOaKqQMR5R2gProU1pmbf4=
+		sH/DC6VN6iyhlVqG1bibit5xvJQ=
 		</data>
 		<key>www/Login.html</key>
 		<data>
-		bFOjIXM6c7rjk5uaBMi+Li8bhDg=
+		Nqeq7flkztnZGKovTr5so5A8mWw=
 		</data>
 		<key>www/MyOffers.html</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>www/NeedsNearby.html</key>
 		<data>
-		z16NpC3sc7QD3iBYpYeCtf7nYKo=
+		NUoKoLuZ23obYJFTSXEzReYEzbc=
 		</data>
 		<key>www/Notifications.html</key>
 		<data>
@@ -198,7 +198,7 @@
 		</data>
 		<key>www/ViewEmergencies.html</key>
 		<data>
-		zUIVPDYQCp2GgSj7XelfZl0UUOo=
+		hPq08h+DY3YdOwJ/URQIk70z/WE=
 		</data>
 		<key>www/cordova-js-src/exec.js</key>
 		<data>
@@ -242,7 +242,7 @@
 		</data>
 		<key>www/home.html</key>
 		<data>
-		Qmy8BkVCAaIJj9a5SadklTuitLI=
+		VSqjmdwd6WvZ34mpcw7eXfTya5Y=
 		</data>
 		<key>www/img/LoginIcon.png</key>
 		<data>
@@ -254,15 +254,23 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		EwB5+jGGT/uEHyJFsZYhDKn6Qvw=
+		HOlM6Oq+7obTFSh2y2/KXE+sJv0=
 		</data>
 		<key>www/js/SocialSharing.js</key>
 		<data>
 		vozXoe/CHl1qA+9kJRPn9t8ApHM=
 		</data>
+		<key>www/js/angular-socialshare.js.map</key>
+		<data>
+		R07euDUEw71rianGv/P2INLkOgU=
+		</data>
+		<key>www/js/angular-socialshare.min.js</key>
+		<data>
+		v21Gin/x/ufN1FBf/C1bWMzkSWE=
+		</data>
 		<key>www/js/myappangular.js</key>
 		<data>
-		KooXIjz19S/XAnHEiOztPsOwYtI=
+		Ur064DquMkhRCRoqkG6AZ7iI5KY=
 		</data>
 		<key>www/js/myappangular.js.bak</key>
 		<data>
@@ -279,6 +287,10 @@
 		<key>www/plugins/es6-promise-plugin/www/promise.js</key>
 		<data>
 		v+D50Ic/pyPUSCiNmKV4nA9UGp4=
+		</data>
+		<key>www/settings.html</key>
+		<data>
+		MJ66hi2v9QIGkJLXI/YIeCJgnfI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -551,22 +563,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p5lsu3+1bGmE1oHrMv7K7QqBSQU=
+			+cjZqX5CYDsETN3TULxj4zP8GeA=
 			</data>
 			<key>hash2</key>
 			<data>
-			GRYyJ1EjXTz8iKXd12fC0GxCzIPnaXaD5rHtFTsQdSQ=
+			uYVpyN4ecjNJ6q1lYkFufjIAR8eM6ZOGot8nI3Ig1QM=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			U/Ep4qCDDkLUELZ5UlEfB9cHyPU=
+			XEgVsF7IO7v9Chw1iGMdMJzgtC0=
 			</data>
 			<key>hash2</key>
 			<data>
-			QZLmArmyraQ9G1iWunpI008gDHj0nW8xTzfYGsPuy2c=
+			0mxvydYTX1LcudCqc1GKU8kWcC6BhE1gAG8kH4oXF9Q=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -584,11 +596,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			riZ1SXR97ZXYBCD2ht6ge42jS7o=
+			mG8cW/017mDR5LRM5rtuDwuZ2HI=
 			</data>
 			<key>hash2</key>
 			<data>
-			U9oOk4l9IqcFx3eUEGtW1oENAsDVQMtYdK0ZigmHqLw=
+			gUcRPssc8ByVJ/bSdYLSTXxkQ4QQ+kdrNlwjOKE4bHU=
 			</data>
 		</dict>
 		<key>Default-568h@2x.png</key>
@@ -617,11 +629,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rm4fqKddZh3443L3xzx6fh5IMbw=
+			vVRHWqhVjW+n0TMWaVV0J++FhRc=
 			</data>
 			<key>hash2</key>
 			<data>
-			JEt/rVDAJPtKICKJf1egfeNcB/pPFHbDUCcP8q+uUM8=
+			k5MHDh6duCT3uHCqUBmp+z3in2UYFTb6z/q5CG+ME90=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -683,22 +695,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EqxcReOaKqQMR5R2gProU1pmbf4=
+			sH/DC6VN6iyhlVqG1bibit5xvJQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			96chbYJ8LwolzLIl6Zo6mNymMbFiiVDIkLmogPR4lg8=
+			eq4fp5MCNG3BUwYmaWFl6Rrb95TzqYMQJXGNvsskP8Y=
 			</data>
 		</dict>
 		<key>www/Login.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bFOjIXM6c7rjk5uaBMi+Li8bhDg=
+			Nqeq7flkztnZGKovTr5so5A8mWw=
 			</data>
 			<key>hash2</key>
 			<data>
-			GlsaeJxOwzvqDFCgym2IbxG6Juc0ysW4yApGptklDNo=
+			67NqCmcD8KvzZ/obBH78JYGZJYLg1nA2eYoCfO0yteo=
 			</data>
 		</dict>
 		<key>www/MyOffers.html</key>
@@ -716,11 +728,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			z16NpC3sc7QD3iBYpYeCtf7nYKo=
+			NUoKoLuZ23obYJFTSXEzReYEzbc=
 			</data>
 			<key>hash2</key>
 			<data>
-			MQ+tb1yt+RaZ1t5MDhcH7xOLBv9XriZ4HbbCJes8eEM=
+			+I1NL92baVWyMOhKbvpMdQOi53wzQ/P0ELKEqLWIn40=
 			</data>
 		</dict>
 		<key>www/Notifications.html</key>
@@ -793,11 +805,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zUIVPDYQCp2GgSj7XelfZl0UUOo=
+			hPq08h+DY3YdOwJ/URQIk70z/WE=
 			</data>
 			<key>hash2</key>
 			<data>
-			YmjIpcgj9+h4wJ/ilF9t1nx+2gYUzNqwj0cmnGtfFQg=
+			UcMNvJMk0Tem0oJJKGPeGWn7cZl6Po1Yqp8/MOIKNLo=
 			</data>
 		</dict>
 		<key>www/cordova-js-src/exec.js</key>
@@ -914,11 +926,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Qmy8BkVCAaIJj9a5SadklTuitLI=
+			VSqjmdwd6WvZ34mpcw7eXfTya5Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z9ud7JPNhCNq0WnqoPv2PVVVZUx7xiziZO+2k9ZB+iQ=
+			1Dg/+1eoZxoLQ9QD0LRGaqiO4qku7VY6zgRsNBC2+Fw=
 			</data>
 		</dict>
 		<key>www/img/LoginIcon.png</key>
@@ -947,11 +959,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EwB5+jGGT/uEHyJFsZYhDKn6Qvw=
+			HOlM6Oq+7obTFSh2y2/KXE+sJv0=
 			</data>
 			<key>hash2</key>
 			<data>
-			pZPU5ou+Dq63z6slDG+B+0C+nnVhePHAXxbiFSy+CHI=
+			bBQ9JVzw8NQqxO0vkfLE+BS8K7pW/XhRA0evTvidZr8=
 			</data>
 		</dict>
 		<key>www/js/SocialSharing.js</key>
@@ -965,15 +977,37 @@
 			wEN5ONwaUeNRRboMz9sfQnKK6TdGX6/MglVaJnGE4cI=
 			</data>
 		</dict>
+		<key>www/js/angular-socialshare.js.map</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			R07euDUEw71rianGv/P2INLkOgU=
+			</data>
+			<key>hash2</key>
+			<data>
+			L4ijE5TI9Q+rOw/NeW5Gn96hfitASsZ88lo9Ky+ZWk4=
+			</data>
+		</dict>
+		<key>www/js/angular-socialshare.min.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			v21Gin/x/ufN1FBf/C1bWMzkSWE=
+			</data>
+			<key>hash2</key>
+			<data>
+			abaCNUugCJaAfevhB9/tMFfC2gb32SCBOf1oQZPo31Y=
+			</data>
+		</dict>
 		<key>www/js/myappangular.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KooXIjz19S/XAnHEiOztPsOwYtI=
+			Ur064DquMkhRCRoqkG6AZ7iI5KY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Nw+ftCpCrKVixizXZl1WF8wlYCBtAZig7hImc6HWf1I=
+			zna8Bw5bwvdgQsZqYv/xKvRjyCRBx7crlH94pURhp8c=
 			</data>
 		</dict>
 		<key>www/js/myappangular.js.bak</key>
@@ -1018,6 +1052,17 @@
 			<key>hash2</key>
 			<data>
 			v5cRyGei3c4gaDqfT28KvXZZWI+VvZBUcscAxFWYwm8=
+			</data>
+		</dict>
+		<key>www/settings.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MJ66hi2v9QIGkJLXI/YIeCJgnfI=
+			</data>
+			<key>hash2</key>
+			<data>
+			3p7ikAwbzggv8b/TP0q184Cfmt/PJm/bcaJBwrDdyVg=
 			</data>
 		</dict>
 	</dict>

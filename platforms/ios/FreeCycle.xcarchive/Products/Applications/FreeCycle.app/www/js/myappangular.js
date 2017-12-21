@@ -573,6 +573,16 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
             }
         );
     };
+    $scope.Logout = function() {
+        $scope.login_email = "";
+        UserService.setLoggedIn({});
+        UserService.setLoggedInStatus(false);
+        $rootScope.loggedIn = false;
+        $scope.eventsCount = 0;
+        $location.path("/index");
+        console.log("Logout: Set logged in status = " + UserService.getLoggedInStatus());
+        return;
+    };
     $scope.CheckIfGroupExists = function(event) {
         var group = "EVENT-" + event.city.trim().toUpperCase().replace(/ /g, "-") + "-" + event.itemtype.trim().toUpperCase().replace(/ /g, "-");
 
@@ -1980,12 +1990,6 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
             }
         );
     };
-    $scope.Logout = function() {
-        $scope.login_email = "";
-        UserService.setLoggedInStatus(false);
-        console.log("Logout: Set logged in status = " + UserService.getLoggedInStatus());
-        return;
-    };
 });
 app.controller("LoginCtrl", function(
     $scope,
@@ -2074,12 +2078,13 @@ app.controller("LoginCtrl", function(
     };
     $scope.Logout = function() {
         $scope.login_email = "";
+        UserService.setLoggedIn({});
         UserService.setLoggedInStatus(false);
+        $rootScope.loggedIn = false;
+        $scope.eventsCount = 0;
+        $location.path("/index");
         console.log("Logout: Set logged in status = " + UserService.getLoggedInStatus());
         return;
-    };
-    $scope.OpenRegsiterForm = function() {
-        $location.path("/register");
     };
 });
 app.controller("RegisterCtrl", function($scope, $http, $location, $window, UserService, DataService, Notification) {

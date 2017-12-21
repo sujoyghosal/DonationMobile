@@ -90,6 +90,10 @@ app.config([
                 templateUrl: "index.html",
                 controller: "DonationCtrl"
             })
+            .when("/contactus", {
+                templateUrl: "ContactUs.html",
+                controller: "DonationCtrl"
+            })
             .otherwise({
                 redirectTo: "/home"
             });
@@ -212,6 +216,7 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
     $scope.alldonations = false;
     $scope.allneeds = false;
     var socket = null;
+    var room = null;
     $rootScope.username = UserService.getLoggedIn().fullname;
     $scope.citydonations = "";
     $scope.cancel = false;
@@ -620,19 +625,25 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
             }
         );
     };
-    $scope.setupWebSockets = function() {
+    $scope.setupWebSockets = function(purpose, arg) {
         console.log("#####Setting up listener for alerts");
-        var socket = null;
-        var room = null;
         socket = io.connect(BASEURL);
         socket.on('connect', function() {
+            console.log("##### Connected to server socket!");
+        });
+        if (purpose && purpose === "init") {
             for (var i = 0; i < $scope.usergroups.length; i++) {
                 //socket.join($scope.usergroups[i].name);
                 room = $scope.usergroups[i].name;
                 console.log("#### Joining events channel " + room);
                 socket.emit('room', room);
             }
-        });
+        } else if (purpose && purpose === "leave") {
+            if (arg && arg.length > 0) {
+                console.log("#### Leaving room " + arg);
+                socket.emit('leave', arg);
+            }
+        }
         socket.on('matchingevent', function(data) {
             console.log("####received matching event: " + JSON.stringify(data));
             if (!DataService.isValidObject(data) || !DataService.isValidArray(data.entities)) {
@@ -647,13 +658,17 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
                     console.log("#####Discarding duplicate events");
                 } else {
                     $rootScope.lastUUID = data.entities[0].uuid;
-                    console.log("#####received matching event created by others! " + data.entities[0].uuid);
-                    var msg = JSON.stringify(data.entities[0].items + "@: " +
-                        data.entities[0].address + ". Contact " + data.entities[0].postedby + ": " +
-                        data.entities[0].phone_number + " / " + data.entities[0].email);
-                    //swal(JSON.stringify(data._data.eventtype), msg, "success");
-                    $scope.HandleEvent("FreeCycle Alert", msg);
-                    return;
+                    for (var i = 0; i < $scope.usergroups.length; i++) {
+                        if ($scope.usergroups[i].name === data.entities[0].group_name) {
+                            var msg = JSON.stringify(data.entities[0].items + "@: " +
+                                data.entities[0].address + ". Contact " + data.entities[0].postedby + ": " +
+                                data.entities[0].phone_number + " / " + data.entities[0].email);
+                            console.log("#####received matching event created by others! " + msg);
+                            $scope.HandleEvent("FreeCycle Alert", msg);
+                            break;
+                        }
+
+                    }
                 }
             }
         });
@@ -1552,7 +1567,7 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
                         FCMPlugin.subscribeToTopic($scope.usergroups[i].name.replace(/-/g, '_'));
                     }
                 }
-                $scope.setupWebSockets();
+                $scope.setupWebSockets("init", null);
             },
             function errorCallback(error) {
                 // called asynchronously if an error occurs
@@ -1590,6 +1605,7 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
                 }
                 Notification.success({ message: "Successfully removed this subscription!", positionY: 'bottom', positionX: 'center' });
                 $scope.result = "Successfully removed this subscription!";
+                $scope.setupWebSockets("leave", group);
                 $rootScope.$emit("CallGetGroupsForUserMethod", {});
             },
             function errorCallback(error) {
@@ -1990,6 +2006,60 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
             }
         );
     };
+    $scope.ContactUs = function(query) {
+        $scope.spinner = true;
+        var getURL =
+            BASEURL + "/createuserquery?email=" +
+            query.email.trim() +
+            "&fullname=" +
+            query.name.trim() +
+            "&phone=" +
+            query.phone.trim() + "&city=" +
+            query.city.trim() + "&subject=" +
+            query.subject.trim() + "&text=" +
+            query.text.trim();
+        getURL = encodeURI(getURL);
+        console.log("ContactUs URL=" + getURL);
+        $http({
+            method: "GET",
+            url: getURL
+        }).then(
+            function successCallback(response) {
+                // this callback will be called asynchronously
+                // when the response is available
+                $scope.spinner = false;
+                if (
+                    angular.isObject(response) &&
+                    response.data.toString() === "QUERY CREATED"
+                ) {
+                    Notification.success({ message: "Thank You! Your query has been sent. We will get back to you as soon as possible.", positionY: 'bottom', positionX: 'center' });
+                    $scope.result = "Thank You! Your query has been sent. We will get back to you as soon as possible.";
+                    return;
+                } else {
+                    $scope.result = "Error sending mail. Please try again later.";
+                    Notification.error({ message: "Could not create user id, might be existing!", positionY: 'bottom', positionX: 'center' });
+                    return;
+                }
+            },
+            function errorCallback(error) {
+                // called asynchronously if an error occurs
+                // or server returns response with an error status.
+                $scope.spinner = false;
+                $scope.result = "Error submitting  request. Please try again later.";
+                Notification.error({ message: "Could not create user id, might be existing!", positionY: 'bottom', positionX: 'center' });
+            }
+        );
+    };
+    $scope.Logout = function() {
+        $scope.login_email = "";
+        UserService.setLoggedIn({});
+        UserService.setLoggedInStatus(false);
+        $rootScope.loggedIn = false;
+        $scope.eventsCount = 0;
+        $location.path("/home");
+        console.log("Logout: Set logged in status = " + UserService.getLoggedInStatus());
+        return;
+    };
 });
 app.controller("LoginCtrl", function(
     $scope,
@@ -2005,7 +2075,7 @@ app.controller("LoginCtrl", function(
     $scope.isCollapsed = true;
     $rootScope.mobileDevice = true;
     $rootScope.$on("CallSetupWebSocketsMethod", function() {
-        $scope.setupWebSockets();
+        $scope.setupWebSockets("init", null);
     });
     $scope.isVisible = function() {
         //return ("/login" !== $location.path() && "/signup" !== $location.path() && "/resetpw" !== $location.path());
@@ -2082,7 +2152,7 @@ app.controller("LoginCtrl", function(
         UserService.setLoggedInStatus(false);
         $rootScope.loggedIn = false;
         $scope.eventsCount = 0;
-        $location.path("/index");
+        $location.path("/home");
         console.log("Logout: Set logged in status = " + UserService.getLoggedInStatus());
         return;
     };

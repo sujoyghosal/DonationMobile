@@ -102,11 +102,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		bUWspBL9o6U1QwSeRIxG7hPvoLw=
+		dW/GJqHhJFt0/rwGQbqwj0kHLZ8=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		iIbaXFaMfq0jarxcxam4byE+EVU=
+		3nnpCrWXEx/Jo2a4SkXqarMTpOc=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		ec/p7hPO38IXmfnv9Iokqx3sl6M=
+		8MYS91rSWs8IVNx83cuANM7mpzA=
 		</data>
 		<key>Default-568h@2x.png</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		HEhOWwfbZNVCgAJufWVLP5tBhTo=
+		PDU9opo9IlF+0zPqvgkY45oQVzM=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -148,6 +148,10 @@
 		<data>
 		jLGfVkze8MhZOQsevUkHRrLGRMA=
 		</data>
+		<key>www/ContactUs.html</key>
+		<data>
+		1do0k+RDEBlaplw3Oks1lLU0uCc=
+		</data>
 		<key>www/CreateEmergency.html</key>
 		<data>
 		RQ/qkVNqClXDnFbipWMReoPDPVw=
@@ -162,7 +166,7 @@
 		</data>
 		<key>www/Login.html</key>
 		<data>
-		Nqeq7flkztnZGKovTr5so5A8mWw=
+		+zDLooBCKVC+GRPySITWLoqo+70=
 		</data>
 		<key>www/MyOffers.html</key>
 		<data>
@@ -254,7 +258,7 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		HOlM6Oq+7obTFSh2y2/KXE+sJv0=
+		qMN6fEQv95aO3cNF2EtltOasv8I=
 		</data>
 		<key>www/js/SocialSharing.js</key>
 		<data>
@@ -270,7 +274,7 @@
 		</data>
 		<key>www/js/myappangular.js</key>
 		<data>
-		Ur064DquMkhRCRoqkG6AZ7iI5KY=
+		72YDN7/9reX2ZLRqEU80bzO+/hg=
 		</data>
 		<key>www/js/myappangular.js.bak</key>
 		<data>
@@ -563,22 +567,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bUWspBL9o6U1QwSeRIxG7hPvoLw=
+			dW/GJqHhJFt0/rwGQbqwj0kHLZ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			6THnMdDAlDmiXt9zMaHdzUCxgB/kdBcQAgQKrahdVBM=
+			S7lcqLNElqv5E7drFEOeOMt2caeoCCiasE1LlxiCDq0=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iIbaXFaMfq0jarxcxam4byE+EVU=
+			3nnpCrWXEx/Jo2a4SkXqarMTpOc=
 			</data>
 			<key>hash2</key>
 			<data>
-			B00b3/wfFmx9EjYMn5tOS4JsJckNWcQBfERx9JO0Rw8=
+			L06HyU4SGnYHb1EkYOoO8xiil6WDVGFgLbnKRquR4Vk=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -596,11 +600,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ec/p7hPO38IXmfnv9Iokqx3sl6M=
+			8MYS91rSWs8IVNx83cuANM7mpzA=
 			</data>
 			<key>hash2</key>
 			<data>
-			OgT9UBNCD2/ulux9xd+8vkxgJnTsRgl+fwLhyxcUNpM=
+			4wFQnGhU4ESwKh2EafdbniyM/p1vsFU1hOfqqFZeuSM=
 			</data>
 		</dict>
 		<key>Default-568h@2x.png</key>
@@ -629,11 +633,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HEhOWwfbZNVCgAJufWVLP5tBhTo=
+			PDU9opo9IlF+0zPqvgkY45oQVzM=
 			</data>
 			<key>hash2</key>
 			<data>
-			uaoanMT+CJ9U/HYlcs4MKrhfsONhQRRHHpk5OULeKsU=
+			MWeUoDIlm20S8ldGFqqD0Va3GsXShicjkhEL5EYJsK0=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -667,6 +671,17 @@
 			<key>hash2</key>
 			<data>
 			PFQ7XZ2JUhio9yWqSYNz8VHZ3s6Fxn3pJtnh1thb3+k=
+			</data>
+		</dict>
+		<key>www/ContactUs.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1do0k+RDEBlaplw3Oks1lLU0uCc=
+			</data>
+			<key>hash2</key>
+			<data>
+			vK2ZAAzxKPCjGE2yQYv4N8AmrOE1SOlr2ojPoAEk1O0=
 			</data>
 		</dict>
 		<key>www/CreateEmergency.html</key>
@@ -706,11 +721,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Nqeq7flkztnZGKovTr5so5A8mWw=
+			+zDLooBCKVC+GRPySITWLoqo+70=
 			</data>
 			<key>hash2</key>
 			<data>
-			67NqCmcD8KvzZ/obBH78JYGZJYLg1nA2eYoCfO0yteo=
+			BNuvQcHayf4R/eDZ1PlwD0s/t6tKdXX/4YbB70E736Y=
 			</data>
 		</dict>
 		<key>www/MyOffers.html</key>
@@ -959,11 +974,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HOlM6Oq+7obTFSh2y2/KXE+sJv0=
+			qMN6fEQv95aO3cNF2EtltOasv8I=
 			</data>
 			<key>hash2</key>
 			<data>
-			bBQ9JVzw8NQqxO0vkfLE+BS8K7pW/XhRA0evTvidZr8=
+			mF69yi/UewVEOGL1hkgeF03l2JfOKMXjsbx0OJNd0/c=
 			</data>
 		</dict>
 		<key>www/js/SocialSharing.js</key>
@@ -1003,11 +1018,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ur064DquMkhRCRoqkG6AZ7iI5KY=
+			72YDN7/9reX2ZLRqEU80bzO+/hg=
 			</data>
 			<key>hash2</key>
 			<data>
-			zna8Bw5bwvdgQsZqYv/xKvRjyCRBx7crlH94pURhp8c=
+			nZk6s4204a75WvEcMC9EANyoiHiJYBqEc4WP78C4dnk=
 			</data>
 		</dict>
 		<key>www/js/myappangular.js.bak</key>

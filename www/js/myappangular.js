@@ -207,7 +207,7 @@ var BASEURL_LOCAL = "http://localhost:9000";
 var BASEURL_PIVOTAL = "http://freecycleapissujoy-horned-erasure.cfapps.io";
 var BASEURL_PERSONAL = "https://freecycleapi.mybluemix.net";
 
-var BASEURL = BASEURL_PERSONAL;
+var BASEURL = BASEURL_PIVOTAL;
 
 var GEOCODEURL = "https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyA_sdHo_cdsKULJF-upFVP26L7zs58_Zfg";
 
@@ -693,7 +693,7 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
             delay: 4000,
             replaceMessage: true
         });
-        //$scope.SendFCMPush(title, text);
+        console.log("#####Calling GetEvents");
         $rootScope.$emit("CallGetEventsMethod", {});
     }
     $scope.CreateNeed = function(need, emergency) {

@@ -7,6 +7,13 @@
 	objects = {
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		085F3C523B3940AAB7B5743C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFE701383D441329254697C /* libz.tbd */; };
+		094284E9171D4BD1A5A8F6DA /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FBD559634E4820B74E3D75 /* libc++.tbd */; };
+		0AB3FFA802EA4CB8A02C7CBC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D403983220284D8CA8A81976 /* GoogleService-Info.plist */; };
+		0D35F3716C5548C48EF96E1E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 784100A948AD40A8BEAA5267 /* libsqlite3.0.tbd */; };
+		0FB61A0712C34114BCE31F05 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F07C676B894C4EAFA7195FA8 /* GoogleUtilities.framework */; };
+		17860A88F4794618A6D813FE /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0917C0BDE9D4E0C84B396A9 /* AddressBook.framework */; };
+		1A2B161755DF480981EB1189 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41227A5C4564F21A26D5F88 /* FirebaseInstanceID.framework */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
@@ -15,26 +22,19 @@
 		3BFF945428E8468BABD9E6BA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA7AD1AB67E4F7A86558C05 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4B5E9D23C8E54D92A2385679 /* NSString+SSURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEA2A0BBB6F43EB8BD8806B /* NSString+SSURLEncoding.m */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		7D0A2025E3F4443AB5146784 /* GoogleIPhoneUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB66812F16E3428E87E64847 /* GoogleIPhoneUtilities.framework */; };
+		7D13872725934A0BA6B94853 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11BDF7B54F4A452B89E33CDE /* FirebaseAnalytics.framework */; };
+		88985F635CC0413691E4D926 /* AppDelegate+FCMPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = B42FED253BE24A7BAF091906 /* AppDelegate+FCMPlugin.m */; };
 		9463438F5128CDB11DC8167E /* libPods-FreeCycle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C81A9EC1D4B5D62EA526A07 /* libPods-FreeCycle.a */; };
+		A2E43BA954B94476924937E0 /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FDD1FD4B6544D2A612ED9F /* FirebaseMessaging.framework */; };
+		AD7D2F7FDF534860936A402D /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB073B1BA9FE4FFCA59061FD /* FirebaseCore.framework */; };
 		B127FA121FC5A4EC0061562D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B127FA101FC5A4EC0061562D /* Default-568h@2x.png */; };
 		B14BAC231FC6A2610083C1FB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B14BAC221FC6A2610083C1FB /* MapKit.framework */; };
+		BA3EFA44F14A4DF596577757 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3E90DFC8634691ACF4128D /* GoogleSymbolUtilities.framework */; };
+		CF48BF7C7A1A40A8BB6E5CA9 /* FCMPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA214E1C7DC4345B9F2EA08 /* FCMPlugin.m */; };
 		D47DD5D0031C4B998FF3BF12 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84591E7C4744ED780F4C840 /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		DB3B6CF79E9F418799859A00 /* SocialSharing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C913383B79D4AB7BD38F73F /* SocialSharing.m */; };
-		CF48BF7C7A1A40A8BB6E5CA9 /* FCMPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA214E1C7DC4345B9F2EA08 /* FCMPlugin.m */; };
-		88985F635CC0413691E4D926 /* AppDelegate+FCMPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = B42FED253BE24A7BAF091906 /* AppDelegate+FCMPlugin.m */; };
-		0AB3FFA802EA4CB8A02C7CBC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D403983220284D8CA8A81976 /* GoogleService-Info.plist */; };
-		7D13872725934A0BA6B94853 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11BDF7B54F4A452B89E33CDE /* FirebaseAnalytics.framework */; };
-		AD7D2F7FDF534860936A402D /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB073B1BA9FE4FFCA59061FD /* FirebaseCore.framework */; };
-		1A2B161755DF480981EB1189 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41227A5C4564F21A26D5F88 /* FirebaseInstanceID.framework */; };
-		A2E43BA954B94476924937E0 /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FDD1FD4B6544D2A612ED9F /* FirebaseMessaging.framework */; };
 		DECA0D2292FA4A2AA49C34A0 /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C39C853823847A3ACA04CF0 /* GoogleInterchangeUtilities.framework */; };
-		7D0A2025E3F4443AB5146784 /* GoogleIPhoneUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB66812F16E3428E87E64847 /* GoogleIPhoneUtilities.framework */; };
-		BA3EFA44F14A4DF596577757 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3E90DFC8634691ACF4128D /* GoogleSymbolUtilities.framework */; };
-		0FB61A0712C34114BCE31F05 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F07C676B894C4EAFA7195FA8 /* GoogleUtilities.framework */; };
-		094284E9171D4BD1A5A8F6DA /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FBD559634E4820B74E3D75 /* libc++.tbd */; };
-		085F3C523B3940AAB7B5743C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFE701383D441329254697C /* libz.tbd */; };
-		17860A88F4794618A6D813FE /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0917C0BDE9D4E0C84B396A9 /* AddressBook.framework */; };
-		0D35F3716C5548C48EF96E1E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 784100A948AD40A8BEAA5267 /* libsqlite3.0.tbd */; };
 		FF518C9A4BD143B3BC1F8C58 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8671DFD447429C8790EA26 /* Security.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,10 +63,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01FBD559634E4820B74E3D75 /* libc++.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FreeCycle/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		11BDF7B54F4A452B89E33CDE /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = "FreeCycle/Plugins/cordova-plugin-fcm/FirebaseAnalytics.framework"; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* FreeCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2747178C47DD477E852C449F /* AppDelegate+FCMPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+FCMPlugin.h"; path = "cordova-plugin-fcm/AppDelegate+FCMPlugin.h"; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
@@ -77,42 +80,39 @@
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* FreeCycle-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FreeCycle-Prefix.pch"; sourceTree = "<group>"; };
+		3B353E2E3DF2430D9A5C283F /* FCMPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = FCMPlugin.h; path = "cordova-plugin-fcm/FCMPlugin.h"; sourceTree = "<group>"; };
+		4C39C853823847A3ACA04CF0 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = "FreeCycle/Plugins/cordova-plugin-fcm/GoogleInterchangeUtilities.framework"; sourceTree = "<group>"; };
 		5C81A9EC1D4B5D62EA526A07 /* libPods-FreeCycle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FreeCycle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C913383B79D4AB7BD38F73F /* SocialSharing.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = SocialSharing.m; path = "cordova-plugin-x-socialsharing/SocialSharing.m"; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = FreeCycle/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		6B3E90DFC8634691ACF4128D /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = "FreeCycle/Plugins/cordova-plugin-fcm/GoogleSymbolUtilities.framework"; sourceTree = "<group>"; };
 		72209F5BA47C470F977463D1 /* SocialSharing.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SocialSharing.h; path = "cordova-plugin-x-socialsharing/SocialSharing.h"; sourceTree = "<group>"; };
+		784100A948AD40A8BEAA5267 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		7E8671DFD447429C8790EA26 /* Security.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		854C551D4C4B42838953B391 /* Firebase.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = "cordova-plugin-fcm/Firebase.h"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* FreeCycle-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "FreeCycle-Info.plist"; path = "FreeCycle/FreeCycle-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
 		95AB320FDE934BA5BDF3ED0D /* NSString+SSURLEncoding.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "NSString+SSURLEncoding.h"; path = "cordova-plugin-x-socialsharing/NSString+SSURLEncoding.h"; sourceTree = "<group>"; };
+		A07C83E0E00947CC90DE16C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B127FA101FC5A4EC0061562D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B14BAC1F1FC6A2540083C1FB /* FreeCycle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = FreeCycle.entitlements; path = FreeCycle/FreeCycle.entitlements; sourceTree = "<group>"; };
 		B14BAC221FC6A2610083C1FB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B42FED253BE24A7BAF091906 /* AppDelegate+FCMPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+FCMPlugin.m"; path = "cordova-plugin-fcm/AppDelegate+FCMPlugin.m"; sourceTree = "<group>"; };
+		CB073B1BA9FE4FFCA59061FD /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = "FreeCycle/Plugins/cordova-plugin-fcm/FirebaseCore.framework"; sourceTree = "<group>"; };
 		CBEA2A0BBB6F43EB8BD8806B /* NSString+SSURLEncoding.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "NSString+SSURLEncoding.m"; path = "cordova-plugin-x-socialsharing/NSString+SSURLEncoding.m"; sourceTree = "<group>"; };
+		D403983220284D8CA8A81976 /* GoogleService-Info.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Resources/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D41227A5C4564F21A26D5F88 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = "FreeCycle/Plugins/cordova-plugin-fcm/FirebaseInstanceID.framework"; sourceTree = "<group>"; };
+		DBA214E1C7DC4345B9F2EA08 /* FCMPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = FCMPlugin.m; path = "cordova-plugin-fcm/FCMPlugin.m"; sourceTree = "<group>"; };
 		DBA7AD1AB67E4F7A86558C05 /* Social.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		F07C676B894C4EAFA7195FA8 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = "FreeCycle/Plugins/cordova-plugin-fcm/GoogleUtilities.framework"; sourceTree = "<group>"; };
+		F0917C0BDE9D4E0C84B396A9 /* AddressBook.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F6FDD1FD4B6544D2A612ED9F /* FirebaseMessaging.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseMessaging.framework; path = "FreeCycle/Plugins/cordova-plugin-fcm/FirebaseMessaging.framework"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = FreeCycle/config.xml; sourceTree = "<group>"; };
 		F84591E7C4744ED780F4C840 /* MessageUI.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		A07C83E0E00947CC90DE16C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; name = "GoogleService-Info.plist"; path = "GoogleService-Info.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
-		DBA214E1C7DC4345B9F2EA08 /* FCMPlugin.m */ = {isa = PBXFileReference; name = "FCMPlugin.m"; path = "cordova-plugin-fcm/FCMPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		B42FED253BE24A7BAF091906 /* AppDelegate+FCMPlugin.m */ = {isa = PBXFileReference; name = "AppDelegate+FCMPlugin.m"; path = "cordova-plugin-fcm/AppDelegate+FCMPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		3B353E2E3DF2430D9A5C283F /* FCMPlugin.h */ = {isa = PBXFileReference; name = "FCMPlugin.h"; path = "cordova-plugin-fcm/FCMPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		2747178C47DD477E852C449F /* AppDelegate+FCMPlugin.h */ = {isa = PBXFileReference; name = "AppDelegate+FCMPlugin.h"; path = "cordova-plugin-fcm/AppDelegate+FCMPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		854C551D4C4B42838953B391 /* Firebase.h */ = {isa = PBXFileReference; name = "Firebase.h"; path = "cordova-plugin-fcm/Firebase.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		D403983220284D8CA8A81976 /* GoogleService-Info.plist */ = {isa = PBXFileReference; name = "GoogleService-Info.plist"; path = "Resources/GoogleService-Info.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
-		11BDF7B54F4A452B89E33CDE /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; name = "FirebaseAnalytics.framework"; path = "FreeCycle/Plugins/cordova-plugin-fcm/FirebaseAnalytics.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		CB073B1BA9FE4FFCA59061FD /* FirebaseCore.framework */ = {isa = PBXFileReference; name = "FirebaseCore.framework"; path = "FreeCycle/Plugins/cordova-plugin-fcm/FirebaseCore.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		D41227A5C4564F21A26D5F88 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; name = "FirebaseInstanceID.framework"; path = "FreeCycle/Plugins/cordova-plugin-fcm/FirebaseInstanceID.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		F6FDD1FD4B6544D2A612ED9F /* FirebaseMessaging.framework */ = {isa = PBXFileReference; name = "FirebaseMessaging.framework"; path = "FreeCycle/Plugins/cordova-plugin-fcm/FirebaseMessaging.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		4C39C853823847A3ACA04CF0 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; name = "GoogleInterchangeUtilities.framework"; path = "FreeCycle/Plugins/cordova-plugin-fcm/GoogleInterchangeUtilities.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		FB66812F16E3428E87E64847 /* GoogleIPhoneUtilities.framework */ = {isa = PBXFileReference; name = "GoogleIPhoneUtilities.framework"; path = "FreeCycle/Plugins/cordova-plugin-fcm/GoogleIPhoneUtilities.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		6B3E90DFC8634691ACF4128D /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; name = "GoogleSymbolUtilities.framework"; path = "FreeCycle/Plugins/cordova-plugin-fcm/GoogleSymbolUtilities.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		F07C676B894C4EAFA7195FA8 /* GoogleUtilities.framework */ = {isa = PBXFileReference; name = "GoogleUtilities.framework"; path = "FreeCycle/Plugins/cordova-plugin-fcm/GoogleUtilities.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		01FBD559634E4820B74E3D75 /* libc++.tbd */ = {isa = PBXFileReference; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
-		FAFE701383D441329254697C /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
-		F0917C0BDE9D4E0C84B396A9 /* AddressBook.framework */ = {isa = PBXFileReference; name = "AddressBook.framework"; path = "System/Library/Frameworks/AddressBook.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		784100A948AD40A8BEAA5267 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; name = "libsqlite3.0.tbd"; path = "usr/lib/libsqlite3.0.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
-		7E8671DFD447429C8790EA26 /* Security.framework */ = {isa = PBXFileReference; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		FAFE701383D441329254697C /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		FB66812F16E3428E87E64847 /* GoogleIPhoneUtilities.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = GoogleIPhoneUtilities.framework; path = "FreeCycle/Plugins/cordova-plugin-fcm/GoogleIPhoneUtilities.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -381,7 +381,6 @@
 				B127FA121FC5A4EC0061562D /* Default-568h@2x.png in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
-				32425B35CA254E598B83CE3E /* GoogleService-Info.plist in Resources */,
 				0AB3FFA802EA4CB8A02C7CBC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

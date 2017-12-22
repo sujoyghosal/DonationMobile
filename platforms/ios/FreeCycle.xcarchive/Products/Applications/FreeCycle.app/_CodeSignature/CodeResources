@@ -102,11 +102,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		1dmFWEMl1LtkiP9yfjTfcELavfw=
+		L5WZq/cKXxI1daAeyJLKvhCqbR8=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		WVUz/aHBiz4m7ldicclmtYKgEX8=
+		RQQoDxDLpWodjj64ZxkdaH8tlcc=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		LSy1Yrb8O0aKaCGiazrHsSs2KrM=
+		MlturgiRCGOU9SKB2OvLizNYoUs=
 		</data>
 		<key>Default-568h@2x.png</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		zIBvnC/E4y8PDKjyynbr1ojr6/Y=
+		tlVmtgNK2Q540I9v91VT7mV8agY=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -162,7 +162,7 @@
 		</data>
 		<key>www/ListDonations.html</key>
 		<data>
-		oCkA92hQUCbdqwPRfXJ63vXmkS8=
+		4og5lRk098oAAFMwVNh/aQQhG+Q=
 		</data>
 		<key>www/Login.html</key>
 		<data>
@@ -170,15 +170,15 @@
 		</data>
 		<key>www/MyOffers.html</key>
 		<data>
-		5cfbJAWyQurxsRFOlnVHdgqgho4=
+		qHQze2rWmsTmlVO1KvPS/1dDEKU=
 		</data>
 		<key>www/NeedsNearby.html</key>
 		<data>
-		4h/IcwwMxrs57MXH96BLwqxB7Xw=
+		Te57uKyRG3PhiZk8RHxwDCTQGtg=
 		</data>
 		<key>www/Notifications.html</key>
 		<data>
-		hEXFwBOAQctCLf99wwDunMQsgkM=
+		6uE60avrCXgIi+CL+nLxqxSR1FA=
 		</data>
 		<key>www/OfferDonation.html</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>www/ViewEmergencies.html</key>
 		<data>
-		rcBEmkh1knpNxuS+XlWk8kHpu1w=
+		WC7FoMKryXUjZRF54SdrT+6RX8Y=
 		</data>
 		<key>www/cordova-js-src/exec.js</key>
 		<data>
@@ -238,7 +238,7 @@
 		</data>
 		<key>www/css/landing-page.css</key>
 		<data>
-		gTYwOaOLqcPxAYEJbMig7o0M+V8=
+		DlfYCVatnMzcZKunHRqNGBAZqa8=
 		</data>
 		<key>www/css/slider.css</key>
 		<data>
@@ -258,7 +258,7 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		qMN6fEQv95aO3cNF2EtltOasv8I=
+		vJq8YOtFGq0uxayeZ4UGENxz0/Q=
 		</data>
 		<key>www/js/SocialSharing.js</key>
 		<data>
@@ -274,7 +274,7 @@
 		</data>
 		<key>www/js/myappangular.js</key>
 		<data>
-		72YDN7/9reX2ZLRqEU80bzO+/hg=
+		bY6pMuPsPp8i1cS0kP4QuBCB+7A=
 		</data>
 		<key>www/js/myappangular.js.bak</key>
 		<data>
@@ -567,22 +567,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1dmFWEMl1LtkiP9yfjTfcELavfw=
+			L5WZq/cKXxI1daAeyJLKvhCqbR8=
 			</data>
 			<key>hash2</key>
 			<data>
-			lHJe+1/l03vtmwBE9kGtVCeweqvpqcyQIX9xwsRel9w=
+			B0E0eWghz+EQ9Wh28GG7J6HZSVrATi1fWrGBZpu2R0w=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WVUz/aHBiz4m7ldicclmtYKgEX8=
+			RQQoDxDLpWodjj64ZxkdaH8tlcc=
 			</data>
 			<key>hash2</key>
 			<data>
-			FH4zVKCaKKhGnF4wjMnB6D1o8O1ux9+2peQGOjG8D0Q=
+			PgVvTFyotGIgEV2jO3/BcS+yMFEu84HZlLgi3QreF6A=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -600,11 +600,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LSy1Yrb8O0aKaCGiazrHsSs2KrM=
+			MlturgiRCGOU9SKB2OvLizNYoUs=
 			</data>
 			<key>hash2</key>
 			<data>
-			d3xS8urpWJ4QtVUIT2UCxZVwDvhPmizqPuTMYyQPQGo=
+			9B6RphDL2AdKkzRPp9sNIujdGMaoE3ThvM0swp/Xwso=
 			</data>
 		</dict>
 		<key>Default-568h@2x.png</key>
@@ -633,11 +633,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zIBvnC/E4y8PDKjyynbr1ojr6/Y=
+			tlVmtgNK2Q540I9v91VT7mV8agY=
 			</data>
 			<key>hash2</key>
 			<data>
-			gzghaB0Vp7KrvI9FouL4TzRXSn5G3GcN4SOA47Huzd0=
+			t2Q3rZ1e0UmuKVXxpAmWHar9cBWB5QbBSpdAOeJDTWk=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -710,11 +710,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oCkA92hQUCbdqwPRfXJ63vXmkS8=
+			4og5lRk098oAAFMwVNh/aQQhG+Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ge8l/BoaxrqA52obvi4371qvmVbkc7ayYfz44eJnUoE=
+			BMS+mQCjSX7bHejn/z6yel1TOHX8KGserQOCkxpeqxA=
 			</data>
 		</dict>
 		<key>www/Login.html</key>
@@ -732,33 +732,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5cfbJAWyQurxsRFOlnVHdgqgho4=
+			qHQze2rWmsTmlVO1KvPS/1dDEKU=
 			</data>
 			<key>hash2</key>
 			<data>
-			FLLRM3OjAHGgtzUdEqN+KnDq72Wj7mWfwhilljGYtlo=
+			AsQ10YlArBZjdLcAZJaRiYZP2uMijgSLw6idLyjF6SE=
 			</data>
 		</dict>
 		<key>www/NeedsNearby.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4h/IcwwMxrs57MXH96BLwqxB7Xw=
+			Te57uKyRG3PhiZk8RHxwDCTQGtg=
 			</data>
 			<key>hash2</key>
 			<data>
-			w6UlDJJPReIyysZ8VB7MDZmHA6dp+CrjgoLiUwWUFCs=
+			oHa/fEse4vaFaipFIED8ua1ekrFOOU+ANqrlhRUdslM=
 			</data>
 		</dict>
 		<key>www/Notifications.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hEXFwBOAQctCLf99wwDunMQsgkM=
+			6uE60avrCXgIi+CL+nLxqxSR1FA=
 			</data>
 			<key>hash2</key>
 			<data>
-			p8bFBn4FIIjqejwtHotn4ZhIqyRrmkr7iBycSE3qQAY=
+			IVeRD/Gv3MP5gzH8/FQTARgxGSVN6aBcikZJTE35NNg=
 			</data>
 		</dict>
 		<key>www/OfferDonation.html</key>
@@ -820,11 +820,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rcBEmkh1knpNxuS+XlWk8kHpu1w=
+			WC7FoMKryXUjZRF54SdrT+6RX8Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			uJSGu0f4aIZ8nPVUwMbZFO5j5QIO8qPuMLz+tbhK50I=
+			mzOZgUEIIQbdZeXrJS0AB6cAfFmTnG2FnAwIkX1chPU=
 			</data>
 		</dict>
 		<key>www/cordova-js-src/exec.js</key>
@@ -919,11 +919,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gTYwOaOLqcPxAYEJbMig7o0M+V8=
+			DlfYCVatnMzcZKunHRqNGBAZqa8=
 			</data>
 			<key>hash2</key>
 			<data>
-			PL/1YO8Kk94fK/xIK8lYKqKaoEBksWuh++7E0HZZmqU=
+			47gkw3CzjpFszFQq1Kq7pkIiIJy2kzy2HlrTpEbCdTY=
 			</data>
 		</dict>
 		<key>www/css/slider.css</key>
@@ -974,11 +974,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qMN6fEQv95aO3cNF2EtltOasv8I=
+			vJq8YOtFGq0uxayeZ4UGENxz0/Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			mF69yi/UewVEOGL1hkgeF03l2JfOKMXjsbx0OJNd0/c=
+			FzHsKOiAn8sym25rHS1TcEXcb5Ht+bjJeqmmyqoeAhA=
 			</data>
 		</dict>
 		<key>www/js/SocialSharing.js</key>
@@ -1018,11 +1018,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			72YDN7/9reX2ZLRqEU80bzO+/hg=
+			bY6pMuPsPp8i1cS0kP4QuBCB+7A=
 			</data>
 			<key>hash2</key>
 			<data>
-			nZk6s4204a75WvEcMC9EANyoiHiJYBqEc4WP78C4dnk=
+			zcns5Pz+ZYnRk6aMQl4Xujo7i9uPnJN51H/JQDCzvvA=
 			</data>
 		</dict>
 		<key>www/js/myappangular.js.bak</key>

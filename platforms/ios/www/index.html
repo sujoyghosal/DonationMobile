@@ -16,6 +16,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui/0.4.0/angular-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.5/sweetalert2.all.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-notification/0.3.6/angular-ui-notification.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
     <script src="cordova.js"></script>
     <script src="js/SocialSharing.js"></script>
     <script src="js/myappangular.js"></script>
@@ -53,7 +54,7 @@
             });
         });
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+
     <style>
         header {
             padding: 32px;
@@ -78,31 +79,42 @@
             padding-top: 20px;
             padding-right: 40px;
         }
-        /*       @media screen and (max-width: 767px) {
-            ul li {
-                display: none;
-            }
-            ul li {
-                display: inline-block;
-            }
-        }
         
-        @media (min-width: 768px) {
-            ul li {
-                display: inline-block;
+        @media (max-width: 992px) {
+            .navbar-header {
+                float: none;
             }
-        }*/
-        
-        @media (min-width: 100px) {
-            ul li {
-                display: inline-block;
+            .navbar-left,
+            .navbar-right {
+                float: none !important;
             }
-            .style-logo {
-                float: left;
+            .navbar-toggle {
+                display: block;
             }
-            .style-nav {
-                float: right;
-                padding-right: 40px;
+            .navbar-collapse {
+                border-top: 1px solid transparent;
+                box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            }
+            .navbar-fixed-top {
+                top: 0;
+                border-width: 0 0 1px;
+            }
+            .navbar-collapse.collapse {
+                display: none!important;
+            }
+            .navbar-nav {
+                float: none!important;
+                margin-top: 7.5px;
+            }
+            .navbar-nav>li {
+                float: none;
+            }
+            .navbar-nav>li>a {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            .collapse.in {
+                display: block !important;
             }
         }
         /*notifications badge*/

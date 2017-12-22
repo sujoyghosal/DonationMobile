@@ -11,17 +11,16 @@
         <i ng-show="spinner" class="fa fa-circle-o-notch fa-spin"></i> {{found}}
         <br>
         <div class="container" ng-show="alldonations">
-            <label>
-                    <i class="fa fa-arrow-circle-up fa-2x" ng-show="!reverse" ng-click="reverse = !reverse;"> </i>
-                    <i class="fa fa-arrow-circle-down fa-2x" ng-show="reverse" ng-click="reverse = !reverse;"></i> &nbsp;&nbsp;&nbsp;&nbsp;                   
- 
-                    <select name="sort" ng-model="sortfield">
-                        <option value="modified" selected>Date</option>                                       
-                        <option value="itemtype">Item Type</option>
-                        <option value="address">Address</option>
-                    </select>
-                    <br>
-                </label> &nbsp;&nbsp;
+            <label>    
+                <select name="sort" ng-model="sortfield">
+                    <option value="modified" selected>Date</option>                                       
+                    <option value="itemtype">Item Type</option>
+                    <option value="address">Address</option>
+                </select>&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="fa fa-arrow-circle-up fa-2x" ng-show="!reverse" ng-click="reverse = !reverse;"> </i>
+                <i class="fa fa-arrow-circle-down fa-2x" ng-show="reverse" ng-click="reverse = !reverse;"></i> 
+                <br>
+            </label>&nbsp;&nbsp;
             <label><i class="fa fa-search fa-2x"></i> 
                 <input type="text" placeholder="Search items, places etc." ng-model="searchText"/> 
             </label>

@@ -1,0 +1,5 @@
+#cp GoogleService-Info.plist ./node_modules/cordova-plugin-fcm/src/ios/GoogleService-Info.plist
+cp GoogleService-Info.plist ./platforms/ios/FreeCycle/Resources/GoogleService-Info.plist
+cp GoogleService-Info.plist ./platforms/ios/FreeCycle/Resources/Resources/GoogleService-Info.plist
+cp GoogleService-Info.plist ./platforms/ios/FreeCycle.xcarchive/Products/Applications/FreeCycle.app/GoogleService-Info.plist
+cp GoogleService-Info.plist ./plugins/cordova-plugin-fcm/src/ios/GoogleService-Info.plist

@@ -32,5 +32,5 @@
         <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="This app needs read/write-access photo library access" />
     </plugin>
     <plugin name="cordova-plugin-x-socialsharing" spec="git+https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git" />
-    <plugin name="cordova-plugin-fcm" spec="git+https://github.com/fechanique/cordova-plugin-fcm.git" />
+    <plugin name="cordova-plugin-fcm" spec="^2.1.2" />
 </widget>

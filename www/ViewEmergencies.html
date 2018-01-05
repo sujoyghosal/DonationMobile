@@ -16,18 +16,15 @@
             </div>
             <div ng-switch="criteria">
                 <div ng-switch-when="City">
-                    <br>
-                    <div class="ex2">
-                        <div class="row">
-                            <div class="col-sm-7">
-                                <input type="text" placeholder="Enter City" name="citySelect" ng-model="data.citySelect" />&nbsp;&nbsp;
-                            </div>
-                            <div class="col-sm-5">
-                                <button type="button" class="btn btn-primary btn-md" ng-click="GetNeeds('city',data.citySelect,true); spinner = true;">Fetch Emergencies</button>
-                            </div>
+                    <div class="vl"></div>
+                    <div class="row">
+                        <div class="col-xs-9">
+                            <input type="text" placeholder="Enter City" name="citySelect" ng-model="data.citySelect" />&nbsp;
+                        </div>
+                        <div class="col-xs-3">
+                            <button type="button" class="btn btn-primary btn-md" ng-click="GetNeeds('city',data.citySelect,true); spinner = true;">GO</button>
                         </div>
                     </div>
-                    <br>
                 </div>
                 <div class="ex2" ng-switch-when="Near Me">
                     <br>
@@ -63,7 +60,7 @@
                     <i class="fa fa-search fa-2x"></i> 
                 </label>
                 <br><b>{{result}}{{}}</b>
-                <table class="table table-responsive" id="needstable">
+                <table class="table table-responsive" id="needstable" border="0">
                     <tr ng-repeat="row in cityneeds | orderBy : sortfield : reverse| filter:searchText">
                         <td ng-init="stackicon = row.fa_icon + ' fa-stack-1x'">
                             <span class="fa-stack fa-2x">

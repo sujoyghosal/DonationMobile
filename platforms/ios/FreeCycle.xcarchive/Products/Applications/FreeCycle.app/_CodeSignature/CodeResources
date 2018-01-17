@@ -102,11 +102,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		Os5f9SeF9DrVBSiHo9VkJmeCBB0=
+		OQqTrXVnOOESgDJCTtXPPtdR+oE=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		97AnqUoiVZhquzTS+UiqDroL6/A=
+		V35qG2/PTaokonEJqlM83A/4kIU=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		V014mtgSP6fkdFTxtTmf/KsYHII=
+		Qwa/ECfCKzPOtEzF0XLF13CqwgQ=
 		</data>
 		<key>Default-568h@2x.png</key>
 		<data>
@@ -126,11 +126,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		E1aGjpmge5I1QMsGd1rbwPjv+iU=
+		4jSX4E17IwT+IKDaNqTtCdTJ2vE=
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		37/JlnfxzJcsd5KerPdTjdihG2A=
+		cMTDW0IBxc9cT6lwwnhyDvr3I9I=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -246,7 +246,7 @@
 		</data>
 		<key>www/home.html</key>
 		<data>
-		GyMNjrZBByIPq/UbAjM+fEjl4nU=
+		PB0JHkI6HK2cjQXAMjrCWXnlbdU=
 		</data>
 		<key>www/img/LoginIcon.png</key>
 		<data>
@@ -262,7 +262,7 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		vJq8YOtFGq0uxayeZ4UGENxz0/Q=
+		y6w9w+5HU9yfJBYNe6Fj8E0eLaM=
 		</data>
 		<key>www/js/SocialSharing.js</key>
 		<data>
@@ -278,11 +278,7 @@
 		</data>
 		<key>www/js/myappangular.js</key>
 		<data>
-		GpYnoUFhNrD3Qt7PLZSuX2ftryQ=
-		</data>
-		<key>www/js/myappangular.js.bak</key>
-		<data>
-		oKyTCjrMyNHJChuwoD/7mkFoGTQ=
+		QZvw9aVBBrvPMhs+5IAWz5CHNwQ=
 		</data>
 		<key>www/plugins/cordova-plugin-fcm/www/FCMPlugin.js</key>
 		<data>
@@ -571,22 +567,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Os5f9SeF9DrVBSiHo9VkJmeCBB0=
+			OQqTrXVnOOESgDJCTtXPPtdR+oE=
 			</data>
 			<key>hash2</key>
 			<data>
-			cTEM6OITSgZSh5Bx48ZII/03tc+iSAtijpI28yXNDIM=
+			SlfLPTbZ7zU7B54rJLoRRzxkmhLiZfcTgPKmnBT2p6w=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			97AnqUoiVZhquzTS+UiqDroL6/A=
+			V35qG2/PTaokonEJqlM83A/4kIU=
 			</data>
 			<key>hash2</key>
 			<data>
-			sUGlvvf+Aony4efgSce4CGz2hnLXp4Fqdqj1bs7fw8Y=
+			njrLPHlL2ufHB6tiFSUbs1yV1cAPjRV7YH3ifylPHkE=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -604,11 +600,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V014mtgSP6fkdFTxtTmf/KsYHII=
+			Qwa/ECfCKzPOtEzF0XLF13CqwgQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			6+461Ocqo4unsILmKGmjh4pGX+uNk+uukRqJpalX7n8=
+			ROwyXiV6aVMTv+nssx50tCDfqC/Q0jj3AjZGgocDwY0=
 			</data>
 		</dict>
 		<key>Default-568h@2x.png</key>
@@ -637,11 +633,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			37/JlnfxzJcsd5KerPdTjdihG2A=
+			cMTDW0IBxc9cT6lwwnhyDvr3I9I=
 			</data>
 			<key>hash2</key>
 			<data>
-			6/aVlvH8mzM1L3HoLq4yx0yXjuOwLWisS4T7bUkVNmc=
+			vdF4YT70BNaSBHcojlN1gkRvipkD7BxFbYZ0R37f0l0=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -945,11 +941,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GyMNjrZBByIPq/UbAjM+fEjl4nU=
+			PB0JHkI6HK2cjQXAMjrCWXnlbdU=
 			</data>
 			<key>hash2</key>
 			<data>
-			UWBgeqm/+QqsK3gRJUlKmcUxnLdeEfVPyYu3UJ7joZA=
+			oDKYfdCYUiJkrNty23H6YgAmc13YRkMVcUg+dmDTkpM=
 			</data>
 		</dict>
 		<key>www/img/LoginIcon.png</key>
@@ -989,11 +985,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vJq8YOtFGq0uxayeZ4UGENxz0/Q=
+			y6w9w+5HU9yfJBYNe6Fj8E0eLaM=
 			</data>
 			<key>hash2</key>
 			<data>
-			FzHsKOiAn8sym25rHS1TcEXcb5Ht+bjJeqmmyqoeAhA=
+			JIY3d2uGszDk5vTtWO6CHH+adY/5/NRqQ2QbUjo7uR4=
 			</data>
 		</dict>
 		<key>www/js/SocialSharing.js</key>
@@ -1033,22 +1029,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GpYnoUFhNrD3Qt7PLZSuX2ftryQ=
+			QZvw9aVBBrvPMhs+5IAWz5CHNwQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			ExqO7hzsxtFFZ3TmJeTwmd7q590v3Uvdl7hb6bhDA74=
-			</data>
-		</dict>
-		<key>www/js/myappangular.js.bak</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			oKyTCjrMyNHJChuwoD/7mkFoGTQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			mh4ZVAgB4ijdbZhGqh/sW+b6y9d+PE0jRBaCyymFTp4=
+			0CX9cMXXkaWpGJzLuLe2Qpa/cAarpjS5UiMvlwJ9ylE=
 			</data>
 		</dict>
 		<key>www/plugins/cordova-plugin-fcm/www/FCMPlugin.js</key>

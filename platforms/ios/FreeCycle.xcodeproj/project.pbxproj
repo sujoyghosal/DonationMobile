@@ -5,7 +5,6 @@
 	};
 	objectVersion = 48;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
 		085F3C523B3940AAB7B5743C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFE701383D441329254697C /* libz.tbd */; };
@@ -21,7 +20,6 @@
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		3BFF945428E8468BABD9E6BA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA7AD1AB67E4F7A86558C05 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4B5E9D23C8E54D92A2385679 /* NSString+SSURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEA2A0BBB6F43EB8BD8806B /* NSString+SSURLEncoding.m */; };
-		50631970032C454F890A73A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DA9B347B904479FA0AE61FD /* GoogleService-Info.plist */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
 		7D0A2025E3F4443AB5146784 /* GoogleIPhoneUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB66812F16E3428E87E64847 /* GoogleIPhoneUtilities.framework */; };
 		7D13872725934A0BA6B94853 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11BDF7B54F4A452B89E33CDE /* FirebaseAnalytics.framework */; };
@@ -37,6 +35,7 @@
 		DB3B6CF79E9F418799859A00 /* SocialSharing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C913383B79D4AB7BD38F73F /* SocialSharing.m */; };
 		DECA0D2292FA4A2AA49C34A0 /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C39C853823847A3ACA04CF0 /* GoogleInterchangeUtilities.framework */; };
 		FF518C9A4BD143B3BC1F8C58 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8671DFD447429C8790EA26 /* Security.framework */; };
+		B0833222EDDD4659A5EC1076 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FB78013629E420D82C22FD4 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,7 +82,6 @@
 		32CA4F630368D1EE00C91783 /* FreeCycle-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FreeCycle-Prefix.pch"; sourceTree = "<group>"; };
 		3B353E2E3DF2430D9A5C283F /* FCMPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = FCMPlugin.h; path = "cordova-plugin-fcm/FCMPlugin.h"; sourceTree = "<group>"; };
 		4C39C853823847A3ACA04CF0 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = "FreeCycle/Plugins/cordova-plugin-fcm/GoogleInterchangeUtilities.framework"; sourceTree = "<group>"; };
-		4DA9B347B904479FA0AE61FD /* GoogleService-Info.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5C81A9EC1D4B5D62EA526A07 /* libPods-FreeCycle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FreeCycle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C913383B79D4AB7BD38F73F /* SocialSharing.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = SocialSharing.m; path = "cordova-plugin-x-socialsharing/SocialSharing.m"; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = FreeCycle/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
@@ -114,6 +112,7 @@
 		F84591E7C4744ED780F4C840 /* MessageUI.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		FAFE701383D441329254697C /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		FB66812F16E3428E87E64847 /* GoogleIPhoneUtilities.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = GoogleIPhoneUtilities.framework; path = "FreeCycle/Plugins/cordova-plugin-fcm/GoogleIPhoneUtilities.framework"; sourceTree = "<group>"; };
+		3FB78013629E420D82C22FD4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; name = "GoogleService-Info.plist"; path = "GoogleService-Info.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,7 +204,7 @@
 				8D1107310486CEB800E47090 /* FreeCycle-Info.plist */,
 				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
 				D403983220284D8CA8A81976 /* GoogleService-Info.plist */,
-				4DA9B347B904479FA0AE61FD /* GoogleService-Info.plist */,
+				3FB78013629E420D82C22FD4 /* GoogleService-Info.plist */,
 			);
 			name = Resources;
 			path = FreeCycle/Resources;
@@ -382,7 +381,7 @@
 				B127FA121FC5A4EC0061562D /* Default-568h@2x.png in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
-				50631970032C454F890A73A4 /* GoogleService-Info.plist in Resources */,
+				B0833222EDDD4659A5EC1076 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

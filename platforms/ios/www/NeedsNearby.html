@@ -16,18 +16,15 @@
             </div>
             <div ng-switch="criteria">
                 <div ng-switch-when="City">
-                    <br>
-                    <div class="ex2">
-                        <div class="row">
-                            <div class="col-sm-7">
-                                <input type="text" placeholder="Enter City" name="citySelect" ng-model="data.citySelect" />&nbsp;&nbsp;
-                            </div>
-                            <div class="col-sm-5">
-                                <button type="button" class="btn btn-primary btn-md" ng-click="GetNeeds('city',data.citySelect,false); spinner = true;">Fetch Needs</button>
-                            </div>
+                    <div class="vl"></div>
+                    <div class="row">
+                        <div class="col-xs-9">
+                            <input type="text" placeholder="Enter City" name="citySelect" ng-model="data.citySelect" />&nbsp;&nbsp;
+                        </div>
+                        <div class="col-xs-3">
+                            <button type="button" class="btn btn-primary btn-md" ng-click="GetNeeds('city',data.citySelect,false); spinner = true;">GO</button>
                         </div>
                     </div>
-                    <br>
                 </div>
                 <div class="ex2" ng-switch-when="Near Me">
                     <br>

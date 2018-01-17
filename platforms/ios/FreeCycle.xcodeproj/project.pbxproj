@@ -10,7 +10,6 @@
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
 		085F3C523B3940AAB7B5743C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFE701383D441329254697C /* libz.tbd */; };
 		094284E9171D4BD1A5A8F6DA /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FBD559634E4820B74E3D75 /* libc++.tbd */; };
-		0AB3FFA802EA4CB8A02C7CBC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D403983220284D8CA8A81976 /* GoogleService-Info.plist */; };
 		0D35F3716C5548C48EF96E1E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 784100A948AD40A8BEAA5267 /* libsqlite3.0.tbd */; };
 		0FB61A0712C34114BCE31F05 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F07C676B894C4EAFA7195FA8 /* GoogleUtilities.framework */; };
 		17860A88F4794618A6D813FE /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0917C0BDE9D4E0C84B396A9 /* AddressBook.framework */; };
@@ -22,6 +21,7 @@
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		3BFF945428E8468BABD9E6BA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA7AD1AB67E4F7A86558C05 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4B5E9D23C8E54D92A2385679 /* NSString+SSURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEA2A0BBB6F43EB8BD8806B /* NSString+SSURLEncoding.m */; };
+		50631970032C454F890A73A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DA9B347B904479FA0AE61FD /* GoogleService-Info.plist */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
 		7D0A2025E3F4443AB5146784 /* GoogleIPhoneUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB66812F16E3428E87E64847 /* GoogleIPhoneUtilities.framework */; };
 		7D13872725934A0BA6B94853 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11BDF7B54F4A452B89E33CDE /* FirebaseAnalytics.framework */; };
@@ -83,6 +83,7 @@
 		32CA4F630368D1EE00C91783 /* FreeCycle-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FreeCycle-Prefix.pch"; sourceTree = "<group>"; };
 		3B353E2E3DF2430D9A5C283F /* FCMPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = FCMPlugin.h; path = "cordova-plugin-fcm/FCMPlugin.h"; sourceTree = "<group>"; };
 		4C39C853823847A3ACA04CF0 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = "FreeCycle/Plugins/cordova-plugin-fcm/GoogleInterchangeUtilities.framework"; sourceTree = "<group>"; };
+		4DA9B347B904479FA0AE61FD /* GoogleService-Info.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5C81A9EC1D4B5D62EA526A07 /* libPods-FreeCycle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FreeCycle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C913383B79D4AB7BD38F73F /* SocialSharing.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = SocialSharing.m; path = "cordova-plugin-x-socialsharing/SocialSharing.m"; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = FreeCycle/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
@@ -93,7 +94,6 @@
 		854C551D4C4B42838953B391 /* Firebase.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = "cordova-plugin-fcm/Firebase.h"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* FreeCycle-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "FreeCycle-Info.plist"; path = "FreeCycle/FreeCycle-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
 		95AB320FDE934BA5BDF3ED0D /* NSString+SSURLEncoding.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "NSString+SSURLEncoding.h"; path = "cordova-plugin-x-socialsharing/NSString+SSURLEncoding.h"; sourceTree = "<group>"; };
-		A07C83E0E00947CC90DE16C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B127FA101FC5A4EC0061562D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B14BAC1F1FC6A2540083C1FB /* FreeCycle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = FreeCycle.entitlements; path = FreeCycle/FreeCycle.entitlements; sourceTree = "<group>"; };
 		B14BAC221FC6A2610083C1FB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -204,8 +204,8 @@
 				3047A50E1AB8057F00498E2A /* config */,
 				8D1107310486CEB800E47090 /* FreeCycle-Info.plist */,
 				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
-				A07C83E0E00947CC90DE16C2 /* GoogleService-Info.plist */,
 				D403983220284D8CA8A81976 /* GoogleService-Info.plist */,
+				4DA9B347B904479FA0AE61FD /* GoogleService-Info.plist */,
 			);
 			name = Resources;
 			path = FreeCycle/Resources;
@@ -382,7 +382,7 @@
 				B127FA121FC5A4EC0061562D /* Default-568h@2x.png in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
-				0AB3FFA802EA4CB8A02C7CBC /* GoogleService-Info.plist in Resources */,
+				50631970032C454F890A73A4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

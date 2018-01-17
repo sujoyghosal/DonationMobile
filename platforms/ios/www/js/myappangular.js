@@ -207,7 +207,7 @@ var BASEURL_LOCAL = "http://localhost:9000";
 var BASEURL_PIVOTAL = "http://freecycleapissujoy-horned-erasure.cfapps.io";
 var BASEURL_PERSONAL = "https://freecycleapi.mybluemix.net";
 
-var BASEURL = BASEURL_PIVOTAL;
+var BASEURL = BASEURL_PERSONAL;
 
 var GEOCODEURL = "https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyA_sdHo_cdsKULJF-upFVP26L7zs58_Zfg";
 
@@ -510,35 +510,23 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
     $scope.SendOffer = function(offer) {
         $scope.loginResult = "";
         var now = new Date();
-        var sendURL =
-            BASEURL + "/createdonations?email=" +
-            $scope.login_email +
-            "&offeredby=" +
-            $scope.login_fullname +
-            "&phone_number=" +
-            offer.phone +
-            "&time=" +
-            now +
-            "&address=" +
-            offer.address +
-            "&city=" +
-            offer.city +
-            "&status=OFFERED" +
-            "&itemtype=" +
-            offer.itemtype +
-            "&fa_icon=" + $scope.GetFontAwesomeIconsForCategory(offer.itemtype) +
-            "&items=" +
-            offer.items +
-            "&latitude=" +
-            $scope.lat +
-            "&longitude=" +
-            $scope.lng;
         $scope.loginResult = "Sent Request";
-        console.log("Send Offer URL=" + sendURL);
-        $http({
-            method: "GET",
-            url: encodeURI(sendURL)
-        }).then(
+        var postURL = BASEURL + "/createdonations";
+        var reqObj = {
+            email: $scope.login_email,
+            offeredby: $scope.login_fullname,
+            time: now,
+            phone_number: event.phone,
+            address: offer.address,
+            city: offer.city,
+            items: offer.items,
+            itemtype: offer.itemtype,
+            latitude: $scope.lat,
+            longitude: $scope.lng,
+            fa_icon: $scope.GetFontAwesomeIconsForCategory(offer.itemtype)
+        };
+        postURL = encodeURI(postURL);
+        $http.post(postURL, JSON.stringify(reqObj)).then(
             function successCallback(response) {
                 // this callback will be called asynchronously
                 // when the response is available
@@ -699,36 +687,24 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
     $scope.CreateNeed = function(need, emergency) {
         $scope.loginResult = "";
         var now = new Date();
-        var sendURL =
-            BASEURL + "/createneed?email=" +
-            $scope.login_email +
-            "&postedby=" +
-            $scope.login_fullname +
-            "&phone_number=" +
-            need.phone +
-            "&time=" +
-            now +
-            "&address=" +
-            need.address +
-            "&city=" +
-            need.city +
-            "&status=NEEDED" +
-            "&itemtype=" +
-            need.itemtype +
-            "&fa_icon=" + $scope.GetFontAwesomeIconsForCategory(need.itemtype) +
-            "&items=" +
-            need.items +
-            "&latitude=" +
-            $scope.lat +
-            "&longitude=" +
-            $scope.lng +
-            "&emergency=" + emergency;
         $scope.loginResult = "Request Sent";
-        console.log("Create Need URL = " + sendURL);
-        $http({
-            method: "GET",
-            url: encodeURI(sendURL)
-        }).then(
+        var postURL = BASEURL + "/createneed";
+        var reqObj = {
+            email: $scope.login_email,
+            postedby: $scope.login_fullname,
+            time: now,
+            phone_number: need.phone,
+            address: need.address,
+            city: need.city,
+            items: need.items,
+            itemtype: need.itemtype,
+            latitude: $scope.lat,
+            longitude: $scope.lng,
+            fa_icon: $scope.GetFontAwesomeIconsForCategory(need.itemtype),
+            emergency: emergency
+        };
+        postURL = encodeURI(postURL);
+        $http.post(postURL, JSON.stringify(reqObj)).then(
             function successCallback(response) {
                 // this callback will be called asynchronously
                 // when the response is available
@@ -811,53 +787,44 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
     $scope.CreateEvent = function(event, group_uuid, group_name) {
         $scope.loginResult = "";
         var now = new Date();
-        var sendURL =
-            BASEURL + "/createevent?email=" +
-            $scope.login_email +
-            "&postedby=" +
-            $scope.login_fullname +
-            "&phone_number=" +
-            event.phone +
-            "&time=" +
-            now +
-            "&address=" +
-            event.address +
-            "&city=" +
-            event.city +
-            "&items=" +
-            event.items +
-            "&latitude=" +
-            $scope.lat +
-            "&longitude=" +
-            $scope.lng +
-            "&itemtype=" +
-            event.itemtype +
-            "&fa_icon=" +
-            $scope.GetFontAwesomeIconsForCategory(event.itemtype) +
-            "&group_uuid=" + group_uuid + "&group_name=" + group_name;
-        console.log("CreateEvent URL=" + sendURL);
-        $http({
-            method: "GET",
-            url: encodeURI(sendURL)
-        }).then(
-            function successCallback(response) {
-                // this callback will be called asynchronously
-                // when the response is available
-                $scope.loginResult = "Success";
-                $scope.spinner = false;
-                $scope.status = response.statusText;
-                // Connect event uuid with group name
-                //$scope.ConnectEntities(group, response.data._data.uuid);
-            },
-            function errorCallback(error) {
-                // called asynchronously if an error occurs
-                // or server returns response with an error status.
-                $scope.loginResult = "Error Received from Server.." + error.toString();
-                Notification.error({ message: "Error processing this request. Please try again later!", positionY: 'bottom', positionX: 'center' });
-                $scope.spinner = false;
-                $scope.status = error.statusText;
-            }
-        );
+        var postURL = BASEURL + "/createevent";
+        var reqObj = {
+            email: $scope.login_email,
+            postedby: $scope.login_fullname,
+            time: now,
+            phone_number: event.phone,
+            address: event.address,
+            city: event.city,
+            items: event.items,
+            itemtype: event.itemtype,
+            latitude: $scope.lat,
+            longitude: $scope.lng,
+            fa_icon: $scope.GetFontAwesomeIconsForCategory(event.itemtype),
+            group_uuid: group_uuid,
+            group_name: group_name
+        };
+        postURL = encodeURI(postURL);
+        console.log("#######CreateEvent URL=" + postURL);
+        $http.post(postURL, JSON.stringify(reqObj))
+            .then(
+                function successCallback(response) {
+                    // this callback will be called asynchronously
+                    // when the response is available
+                    $scope.loginResult = "Success";
+                    $scope.spinner = false;
+                    $scope.status = response.statusText;
+                    // Connect event uuid with group name
+                    //$scope.ConnectEntities(group, response.data._data.uuid);
+                },
+                function errorCallback(error) {
+                    // called asynchronously if an error occurs
+                    // or server returns response with an error status.
+                    $scope.loginResult = "Error Received from Server.." + error.toString();
+                    Notification.error({ message: "Error processing this request. Please try again later!", positionY: 'bottom', positionX: 'center' });
+                    $scope.spinner = false;
+                    $scope.status = error.statusText;
+                }
+            );
     };
     $scope.ConnectEntities = function(uuid1, uuid2) {
         if (!uuid1 || !uuid2) {
@@ -1300,12 +1267,7 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
         }
         console.log("Creating subscription for city " + data.city + "and item type " + data.itemtype);
         $scope.result = "Sending Request....";
-        //first create group with id=<city>-<place>
-        var getURL = BASEURL + "/creategroup?group=";
-        var group = "";
-
-        group =
-            "EVENT-" +
+        var group = "EVENT-" +
             data.city
             .toString()
             .trim()
@@ -1315,31 +1277,31 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
             .toString()
             .trim()
             .toUpperCase();
-
-        getURL = encodeURI(getURL + group);
-        console.log("Creating Group: " + getURL);
-        $http({
-            method: "GET",
-            url: getURL
-        }).then(
-            function successCallback(response) {
-                // this callback will be called asynchronously
-                // when the response is available
-                $scope.spinner = false;
-                var u = $scope.login_email;
-                addUserToGroup(group, u);
-                //$scope.found  = "Active donation offers for " + param_name;
-            },
-            function errorCallback(error) {
-                // called asynchronously if an error occurs
-                // or server returns response with an error status.
-                $scope.spinner = false;
-                $scope.found = "Could not process this request. Please try again later!";
-                console.log("#####Subscribe error: " + JSON.stringify(error));
-                Notification.error({ message: "Error processing this request. Please try again later!", positionY: 'bottom', positionX: 'center' });
-                $scope.alldonations = false;
-            }
-        );
+        var postURL = BASEURL + "/creategroup";
+        var reqObj = {
+            group: group
+        };
+        postURL = encodeURI(postURL);
+        $http.post(postURL, JSON.stringify(reqObj))
+            .then(
+                function successCallback(response) {
+                    // this callback will be called asynchronously
+                    // when the response is available
+                    $scope.spinner = false;
+                    var u = $scope.login_email;
+                    addUserToGroup(group, u);
+                    //$scope.found  = "Active donation offers for " + param_name;
+                },
+                function errorCallback(error) {
+                    // called asynchronously if an error occurs
+                    // or server returns response with an error status.
+                    $scope.spinner = false;
+                    $scope.found = "Could not process this request. Please try again later!";
+                    console.log("#####Subscribe error: " + JSON.stringify(error));
+                    Notification.error({ message: "Error processing this request. Please try again later!", positionY: 'bottom', positionX: 'center' });
+                    $scope.alldonations = false;
+                }
+            );
     };
 
     var addUserToGroup = function(group, user) {
@@ -2009,7 +1971,7 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
     $scope.ContactUs = function(query) {
         $scope.spinner = true;
         var getURL =
-            BASEURL + "/createuserquery?email=" +
+            /*BASEURL + "/contactus?email=" +
             query.email.trim() +
             "&fullname=" +
             query.name.trim() +
@@ -2017,38 +1979,45 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
             query.phone.trim() + "&city=" +
             query.city.trim() + "&subject=" +
             query.subject.trim() + "&text=" +
-            query.text.trim();
+            query.text.trim();*/
+            BASEURL + "/contactus";
         getURL = encodeURI(getURL);
+        var reqObj = {
+            email: query.email.trim(),
+            fullname: query.name.trim(),
+            phone: query.phone.trim(),
+            city: query.city.trim(),
+            subject: query.subject.trim(),
+            text: query.text.trim()
+        };
         console.log("ContactUs URL=" + getURL);
-        $http({
-            method: "GET",
-            url: getURL
-        }).then(
-            function successCallback(response) {
-                // this callback will be called asynchronously
-                // when the response is available
-                $scope.spinner = false;
-                if (
-                    angular.isObject(response) &&
-                    response.data.toString() === "QUERY CREATED"
-                ) {
-                    Notification.success({ message: "Thank You! Your query has been sent. We will get back to you as soon as possible.", positionY: 'bottom', positionX: 'center' });
-                    $scope.result = "Thank You! Your query has been sent. We will get back to you as soon as possible.";
-                    return;
-                } else {
-                    $scope.result = "Error sending mail. Please try again later.";
+        $http.post(getURL, JSON.stringify(reqObj))
+            .then(
+                function successCallback(response) {
+                    // this callback will be called asynchronously
+                    // when the response is available
+                    $scope.spinner = false;
+                    if (
+                        angular.isObject(response) &&
+                        response.data.toString() === "QUERY CREATED"
+                    ) {
+                        Notification.success({ message: "Thank You! Your query has been sent. We will get back to you as soon as possible.", positionY: 'bottom', positionX: 'center' });
+                        $scope.result = "Thank You! Your query has been sent. We will get back to you as soon as possible.";
+                        return;
+                    } else {
+                        $scope.result = "Error sending mail. Please try again later.";
+                        Notification.error({ message: "Could not create user id, might be existing!", positionY: 'bottom', positionX: 'center' });
+                        return;
+                    }
+                },
+                function errorCallback(error) {
+                    // called asynchronously if an error occurs
+                    // or server returns response with an error status.
+                    $scope.spinner = false;
+                    $scope.result = "Error submitting  request. Please try again later.";
                     Notification.error({ message: "Could not create user id, might be existing!", positionY: 'bottom', positionX: 'center' });
-                    return;
                 }
-            },
-            function errorCallback(error) {
-                // called asynchronously if an error occurs
-                // or server returns response with an error status.
-                $scope.spinner = false;
-                $scope.result = "Error submitting  request. Please try again later.";
-                Notification.error({ message: "Could not create user id, might be existing!", positionY: 'bottom', positionX: 'center' });
-            }
-        );
+            );
     };
     $scope.Logout = function() {
         $scope.login_email = "";
@@ -2165,50 +2134,49 @@ app.controller("RegisterCtrl", function($scope, $http, $location, $window, UserS
     //    $scope.login_address = UserService.getLoggedIn().address;
     $scope.CreateUser = function(user) {
         $scope.spinner = true;
-        var getURL =
-            BASEURL + "/createuser?email=" +
-            user.email.trim() +
-            "&fullname=" +
-            user.fullname.trim() +
-            "&password=" +
-            user.password.trim();
+        var getURL = BASEURL + "/createuser";
+        var reqObj = {
+            email: user.email.trim(),
+            fullname: user.fullname.trim(),
+            password: user.password.trim(),
+            organisation: user.org,
+            ngo: user.ngo
+        };
         getURL = encodeURI(getURL);
-        console.log("Create URL=" + getURL);
-        $http({
-            method: "GET",
-            url: getURL
-        }).then(
-            function successCallback(response) {
-                // this callback will be called asynchronously
-                // when the response is available
-                $scope.spinner = false;
-                if (
-                    angular.isObject(response) &&
-                    response.data.toString() === "CREATED"
-                ) {
-                    //alert("Account Created with id " + user.email);
-                    //swal("Good job!", "Account Created with id " + user.email, "success");
-                    Notification.success({ message: "Account Created with id " + user.email, positionY: 'bottom', positionX: 'center' });
-                    $location.path("/login");
-                    return;
-                } else {
-                    $scope.result = "Error creating id. Email already in use.";
-                    //alert("Could not create user id");
-                    //swal("Problem!", "Could not create user id, might be existing!", "error");
-                    Notification.error({ message: "Could not create user id, might be existing!", positionY: 'bottom', positionX: 'center' });
+        console.log("ContactUs URL=" + getURL);
+        $http.post(getURL, JSON.stringify(reqObj))
+            .then(
+                function successCallback(response) {
+                    // this callback will be called asynchronously
+                    // when the response is available
+                    $scope.spinner = false;
+                    if (
+                        angular.isObject(response) &&
+                        response.data.toString() === "CREATED"
+                    ) {
+                        //alert("Account Created with id " + user.email);
+                        //swal("Good job!", "Account Created with id " + user.email, "success");
+                        Notification.success({ message: "Account Created with id " + user.email, positionY: 'bottom', positionX: 'center' });
+                        $location.path("/login");
+                        return;
+                    } else {
+                        $scope.result = "Error creating id. Email already in use.";
+                        //alert("Could not create user id");
+                        //swal("Problem!", "Could not create user id, might be existing!", "error");
+                        Notification.error({ message: "Could not create user id, might be existing!", positionY: 'bottom', positionX: 'center' });
 
-                    //        $location.path("/login");
-                    return;
+                        //        $location.path("/login");
+                        return;
+                    }
+                },
+                function errorCallback(error) {
+                    // called asynchronously if an error occurs
+                    // or server returns response with an error status.
+                    $scope.spinner = false;
+                    $scope.loginResult = "Could not submit request.." + error;
+                    Notification.error({ message: "Error processing this request. Please try again later!", positionY: 'bottom', positionX: 'center' });
                 }
-            },
-            function errorCallback(error) {
-                // called asynchronously if an error occurs
-                // or server returns response with an error status.
-                $scope.spinner = false;
-                $scope.loginResult = "Could not submit request.." + error;
-                Notification.error({ message: "Error processing this request. Please try again later!", positionY: 'bottom', positionX: 'center' });
-            }
-        );
+            );
     };
     $scope.UpdateUser = function(user) {
 

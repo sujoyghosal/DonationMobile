@@ -102,11 +102,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		OQqTrXVnOOESgDJCTtXPPtdR+oE=
+		hET3sQ8DMihfpFdBFs46g4ml4Fc=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		V35qG2/PTaokonEJqlM83A/4kIU=
+		eyQPgvRJKH8JxTBX2+zU2yPazQA=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		Qwa/ECfCKzPOtEzF0XLF13CqwgQ=
+		njaMAtck6PZ4rep9hyx2BxcPLT0=
 		</data>
 		<key>Default-568h@2x.png</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		cMTDW0IBxc9cT6lwwnhyDvr3I9I=
+		7oz9Q+9OrmETAQ8EcPvULJSEMFU=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -228,9 +228,169 @@
 		<data>
 		RtYISvodPfS39D7+NO3XK1uNlVI=
 		</data>
+		<key>www/css/angular-ui-notification.min.css</key>
+		<data>
+		wRWeM5OOBZ8QSlBk+PqdHdgLV7c=
+		</data>
+		<key>www/css/bootstrap.min.css</key>
+		<data>
+		h/SMgEGfGY+FbMoZ9XOWb4PNMIM=
+		</data>
 		<key>www/css/dropdownhover.css</key>
 		<data>
 		tY5JnW1OQWAyG8tc+aquBRborC8=
+		</data>
+		<key>www/css/font-awesome-4.7.0/HELP-US-OUT.txt</key>
+		<data>
+		T3v5YfG+1Ej2upmuuSGfq/kwupY=
+		</data>
+		<key>www/css/font-awesome-4.7.0/css/font-awesome.css</key>
+		<data>
+		AUCVLGTj8rdO9k4FDy/obqtmJMg=
+		</data>
+		<key>www/css/font-awesome-4.7.0/css/font-awesome.min.css</key>
+		<data>
+		USx9eQM+MCipvmG1QM8aaHDIlvg=
+		</data>
+		<key>www/css/font-awesome-4.7.0/fonts/FontAwesome.otf</key>
+		<data>
+		BIcHvFKsS2VjqqODv+hmCg3ckIw=
+		</data>
+		<key>www/css/font-awesome-4.7.0/fonts/fontawesome-webfont.eot</key>
+		<data>
+		2YDCzoc9xDr0YNTVctRBMESZ9AA=
+		</data>
+		<key>www/css/font-awesome-4.7.0/fonts/fontawesome-webfont.svg</key>
+		<data>
+		mKiqXPfWLC7/Xwft6NhEuHTvBu0=
+		</data>
+		<key>www/css/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf</key>
+		<data>
+		E7HqtlqYPHpzvHmXxHnWaUP3xss=
+		</data>
+		<key>www/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff</key>
+		<data>
+		KLeCJAs+dtuCThLAJ1SpcxoWdSc=
+		</data>
+		<key>www/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2</key>
+		<data>
+		1vSMun0Hb7by/Wupk6dbncHsvww=
+		</data>
+		<key>www/css/font-awesome-4.7.0/less/animated.less</key>
+		<data>
+		Qh8sThAZHxSME7ijTl/z9ITUw5M=
+		</data>
+		<key>www/css/font-awesome-4.7.0/less/bordered-pulled.less</key>
+		<data>
+		osKSE3sXQGGDrQ/b9IgP1ki5pco=
+		</data>
+		<key>www/css/font-awesome-4.7.0/less/core.less</key>
+		<data>
+		Gjc1IoZhm3idFRoG60t1UeTBqqI=
+		</data>
+		<key>www/css/font-awesome-4.7.0/less/fixed-width.less</key>
+		<data>
+		7AwkuXGE2rhhd2YPSGuNCM1jbEI=
+		</data>
+		<key>www/css/font-awesome-4.7.0/less/font-awesome.less</key>
+		<data>
+		n/50ItwjVFCiHwGfQQ7TWe0VH0s=
+		</data>
+		<key>www/css/font-awesome-4.7.0/less/icons.less</key>
+		<data>
+		AoWpmesa2thoNmZ4wtk2W3cYakU=
+		</data>
+		<key>www/css/font-awesome-4.7.0/less/larger.less</key>
+		<data>
+		5xGegtxQVA28NHK7p9dCgoFafsw=
+		</data>
+		<key>www/css/font-awesome-4.7.0/less/list.less</key>
+		<data>
+		9TvCCIShQQ2VC0o2ozDFGBqLVas=
+		</data>
+		<key>www/css/font-awesome-4.7.0/less/mixins.less</key>
+		<data>
+		PFs2sAaTcrUl7Yu7z2s9TSvtTng=
+		</data>
+		<key>www/css/font-awesome-4.7.0/less/path.less</key>
+		<data>
+		GvtKhJBZYx927SpRnX+xvQrxSAI=
+		</data>
+		<key>www/css/font-awesome-4.7.0/less/rotated-flipped.less</key>
+		<data>
+		ld5d6QCXFGkkMLBPnNQ4i+j7qPM=
+		</data>
+		<key>www/css/font-awesome-4.7.0/less/screen-reader.less</key>
+		<data>
+		cRORMvFw6+dxKDYhD00sSQUVGJk=
+		</data>
+		<key>www/css/font-awesome-4.7.0/less/stacked.less</key>
+		<data>
+		8EQHe8i+GpicJFJU6B6whNUtKac=
+		</data>
+		<key>www/css/font-awesome-4.7.0/less/variables.less</key>
+		<data>
+		ilyAB0dwXfFhF8xZjBufUS6HO/4=
+		</data>
+		<key>www/css/font-awesome-4.7.0/scss/_animated.scss</key>
+		<data>
+		ja8Ymy+KQESVuEJLb9G6Yw3Rwtw=
+		</data>
+		<key>www/css/font-awesome-4.7.0/scss/_bordered-pulled.scss</key>
+		<data>
+		FktqCiswfNKT9KkUqw/N9kOVA3Q=
+		</data>
+		<key>www/css/font-awesome-4.7.0/scss/_core.scss</key>
+		<data>
+		VaFKNCZ+3EAbguXuQdi9hPu12j8=
+		</data>
+		<key>www/css/font-awesome-4.7.0/scss/_fixed-width.scss</key>
+		<data>
+		IkQXyiZsZXhJr7K7y23EVYlP84c=
+		</data>
+		<key>www/css/font-awesome-4.7.0/scss/_icons.scss</key>
+		<data>
+		gw4BgzN9FsB7HGODj3WToz7oexU=
+		</data>
+		<key>www/css/font-awesome-4.7.0/scss/_larger.scss</key>
+		<data>
+		lA4cXrxpAoO/ruklYM8V+r7b9qk=
+		</data>
+		<key>www/css/font-awesome-4.7.0/scss/_list.scss</key>
+		<data>
+		S1PuAVE9+LnOdkQrLY8YUWE6Q1w=
+		</data>
+		<key>www/css/font-awesome-4.7.0/scss/_mixins.scss</key>
+		<data>
+		TziBA0pMEcrozJFfKIR3tJijV6I=
+		</data>
+		<key>www/css/font-awesome-4.7.0/scss/_path.scss</key>
+		<data>
+		CAFYrrG/bfWeyYsrvtRNph2cnKM=
+		</data>
+		<key>www/css/font-awesome-4.7.0/scss/_rotated-flipped.scss</key>
+		<data>
+		ygigrz2mPC8qfTwnqHR2N3RMx4U=
+		</data>
+		<key>www/css/font-awesome-4.7.0/scss/_screen-reader.scss</key>
+		<data>
+		LYVjxIj2jnWijVQN2JMB7k7gjJc=
+		</data>
+		<key>www/css/font-awesome-4.7.0/scss/_stacked.scss</key>
+		<data>
+		z2dS7mCa826yk6cZfIjTHsrLvHQ=
+		</data>
+		<key>www/css/font-awesome-4.7.0/scss/_variables.scss</key>
+		<data>
+		DW1wU1EEtC5g1/RK5sz53gI6e4s=
+		</data>
+		<key>www/css/font-awesome-4.7.0/scss/font-awesome.scss</key>
+		<data>
+		3YNkjqW8gy+Hw8G/lWxU3sBlqb0=
+		</data>
+		<key>www/css/googleapis.css</key>
+		<data>
+		8g2yR7A0cKQK2r4oFB2POBhMMKM=
 		</data>
 		<key>www/css/index.css</key>
 		<data>
@@ -243,6 +403,14 @@
 		<key>www/css/slider.css</key>
 		<data>
 		dsATvSVflf5cGFshNWB6Ia7+CEA=
+		</data>
+		<key>www/css/sweetalert2.min.css</key>
+		<data>
+		b0BLVzt6LEKnpY4V8gjpleCy4rQ=
+		</data>
+		<key>www/css/w3.css</key>
+		<data>
+		t/v9E1DkziHNQ5LS5waR+xNjPZA=
 		</data>
 		<key>www/home.html</key>
 		<data>
@@ -262,11 +430,15 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		y6w9w+5HU9yfJBYNe6Fj8E0eLaM=
+		RrYq2hVxTL1eSWnSDE9ZP9Pk9kA=
 		</data>
 		<key>www/js/SocialSharing.js</key>
 		<data>
 		vozXoe/CHl1qA+9kJRPn9t8ApHM=
+		</data>
+		<key>www/js/angular-route.min.js</key>
+		<data>
+		Gk+nf8mP3kxWS/6TlWm9xsXqGpk=
 		</data>
 		<key>www/js/angular-socialshare.js.map</key>
 		<data>
@@ -276,9 +448,41 @@
 		<data>
 		v21Gin/x/ufN1FBf/C1bWMzkSWE=
 		</data>
+		<key>www/js/angular-ui-notification.min.js</key>
+		<data>
+		s4plDX0xCyhc9KcptaZWBEzloA4=
+		</data>
+		<key>www/js/angular-ui.min.js</key>
+		<data>
+		63bTY39iReLAiGYphStG37Gg/vE=
+		</data>
+		<key>www/js/angular.min.js</key>
+		<data>
+		nA1ti137Tcre5v65c0SB4mObdq4=
+		</data>
+		<key>www/js/bootstrap.min.js</key>
+		<data>
+		WZuTx0PZ4aUkLPcfVToNWqjx3T0=
+		</data>
+		<key>www/js/jquery.min.js</key>
+		<data>
+		dfQKb/j4sjBDqnnkLRTeiMhf4mw=
+		</data>
 		<key>www/js/myappangular.js</key>
 		<data>
-		QZvw9aVBBrvPMhs+5IAWz5CHNwQ=
+		rjlui+Vvo20kswxM5NGm71peHns=
+		</data>
+		<key>www/js/socket.io.js</key>
+		<data>
+		uKYSmciqT+pn9kVxomR71SIIO9I=
+		</data>
+		<key>www/js/sweetalert2.all.js</key>
+		<data>
+		SZuP9wVT0frgzW84EQNZR4uFGtw=
+		</data>
+		<key>www/js/ui-bootstrap-tpls-0.5.0.js</key>
+		<data>
+		U6ZNTwJq3s5uAWJGHsLhuyXcANQ=
 		</data>
 		<key>www/plugins/cordova-plugin-fcm/www/FCMPlugin.js</key>
 		<data>
@@ -567,22 +771,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OQqTrXVnOOESgDJCTtXPPtdR+oE=
+			hET3sQ8DMihfpFdBFs46g4ml4Fc=
 			</data>
 			<key>hash2</key>
 			<data>
-			SlfLPTbZ7zU7B54rJLoRRzxkmhLiZfcTgPKmnBT2p6w=
+			O6+NFZyuWIbduMhikDEM2bXlcfUP0g3JOf5EQ/TijFA=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			V35qG2/PTaokonEJqlM83A/4kIU=
+			eyQPgvRJKH8JxTBX2+zU2yPazQA=
 			</data>
 			<key>hash2</key>
 			<data>
-			njrLPHlL2ufHB6tiFSUbs1yV1cAPjRV7YH3ifylPHkE=
+			CX0wVLnxpHslXoNVA60in84V43FMSjJyVef7GNyGxSU=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -600,11 +804,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Qwa/ECfCKzPOtEzF0XLF13CqwgQ=
+			njaMAtck6PZ4rep9hyx2BxcPLT0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ROwyXiV6aVMTv+nssx50tCDfqC/Q0jj3AjZGgocDwY0=
+			FVp++tkLxOsOrVJaDH0oF4OJw830cSMmyO8byXiQJn0=
 			</data>
 		</dict>
 		<key>Default-568h@2x.png</key>
@@ -633,11 +837,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cMTDW0IBxc9cT6lwwnhyDvr3I9I=
+			7oz9Q+9OrmETAQ8EcPvULJSEMFU=
 			</data>
 			<key>hash2</key>
 			<data>
-			vdF4YT70BNaSBHcojlN1gkRvipkD7BxFbYZ0R37f0l0=
+			W6IECwSGoJLMrLKCstRTCqVCbn/p1yuAuWOaYJrACwM=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -893,6 +1097,28 @@
 			I4okMyhr0roB/hKd4C0C8aNYbojzZC5igM30Uw3NlEw=
 			</data>
 		</dict>
+		<key>www/css/angular-ui-notification.min.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wRWeM5OOBZ8QSlBk+PqdHdgLV7c=
+			</data>
+			<key>hash2</key>
+			<data>
+			mM2TerJ47HqnDNk4u20MG0/fRcHJVhKJDMq66NEiYW0=
+			</data>
+		</dict>
+		<key>www/css/bootstrap.min.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			h/SMgEGfGY+FbMoZ9XOWb4PNMIM=
+			</data>
+			<key>hash2</key>
+			<data>
+			RK3rKd1k45ptKWTk9e6G1/TSabptg80qQoqikKw4c5I=
+			</data>
+		</dict>
 		<key>www/css/dropdownhover.css</key>
 		<dict>
 			<key>hash</key>
@@ -902,6 +1128,424 @@
 			<key>hash2</key>
 			<data>
 			KpjYvaj1k74Ej0ydKMV5PYgpCx20xh7eEV4KOGwgGdo=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/HELP-US-OUT.txt</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			T3v5YfG+1Ej2upmuuSGfq/kwupY=
+			</data>
+			<key>hash2</key>
+			<data>
+			MDTrsPfEKJZkj1MD40mc19/k2wEPlXj/RftCryiE7Ws=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/css/font-awesome.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AUCVLGTj8rdO9k4FDy/obqtmJMg=
+			</data>
+			<key>hash2</key>
+			<data>
+			NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/css/font-awesome.min.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			USx9eQM+MCipvmG1QM8aaHDIlvg=
+			</data>
+			<key>hash2</key>
+			<data>
+			eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/fonts/FontAwesome.otf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BIcHvFKsS2VjqqODv+hmCg3ckIw=
+			</data>
+			<key>hash2</key>
+			<data>
+			RE3UNmYV/8ShbQErL6kBNwZdPMtBD6b9Xk3de15P/NU=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/fonts/fontawesome-webfont.eot</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2YDCzoc9xDr0YNTVctRBMESZ9AA=
+			</data>
+			<key>hash2</key>
+			<data>
+			e/yrbbmdXPvxcFygU23ceFhUMsxfpBu9etDwCQM7KXk=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/fonts/fontawesome-webfont.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mKiqXPfWLC7/Xwft6NhEuHTvBu0=
+			</data>
+			<key>hash2</key>
+			<data>
+			rWFXkmwWIrpOHQPUePFUE2hSS/xG9R5C/g2UX37zI+Q=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			E7HqtlqYPHpzvHmXxHnWaUP3xss=
+			</data>
+			<key>hash2</key>
+			<data>
+			qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KLeCJAs+dtuCThLAJ1SpcxoWdSc=
+			</data>
+			<key>hash2</key>
+			<data>
+			ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1vSMun0Hb7by/Wupk6dbncHsvww=
+			</data>
+			<key>hash2</key>
+			<data>
+			Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/less/animated.less</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Qh8sThAZHxSME7ijTl/z9ITUw5M=
+			</data>
+			<key>hash2</key>
+			<data>
+			xwNUI9Wh4D02vP1kZUgeTE1ckfMW+oeKblEDr+Gwu/Y=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/less/bordered-pulled.less</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			osKSE3sXQGGDrQ/b9IgP1ki5pco=
+			</data>
+			<key>hash2</key>
+			<data>
+			49FoopK6M9TjIVkZljowTcJXMqc8693m5+vk1Hq0PrY=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/less/core.less</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Gjc1IoZhm3idFRoG60t1UeTBqqI=
+			</data>
+			<key>hash2</key>
+			<data>
+			pKk9WYE09lasbHoKXzda+pQeceNI5o7PPNb+t2Fqz54=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/less/fixed-width.less</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7AwkuXGE2rhhd2YPSGuNCM1jbEI=
+			</data>
+			<key>hash2</key>
+			<data>
+			DvhToxknQtIH6g55Pci8xjIty55Q1B9LmBxOusLax6w=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/less/font-awesome.less</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			n/50ItwjVFCiHwGfQQ7TWe0VH0s=
+			</data>
+			<key>hash2</key>
+			<data>
+			LfYjBaihTgnsrVihVaR48cjBExj0BTYL5oMhn2Kz6iQ=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/less/icons.less</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AoWpmesa2thoNmZ4wtk2W3cYakU=
+			</data>
+			<key>hash2</key>
+			<data>
+			TVhe7umPSCbFR+AwppBpDqVqTe3oBvyBdjQqvs0G/qE=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/less/larger.less</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5xGegtxQVA28NHK7p9dCgoFafsw=
+			</data>
+			<key>hash2</key>
+			<data>
+			38edQyWATpreIatlFFsjscQZPSSok2kLxHtcBznKPAo=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/less/list.less</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9TvCCIShQQ2VC0o2ozDFGBqLVas=
+			</data>
+			<key>hash2</key>
+			<data>
+			Akq7kw5mafIV3e4Z9YB3Vx8cq7eu4SdL+WsibClrc9M=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/less/mixins.less</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PFs2sAaTcrUl7Yu7z2s9TSvtTng=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZcS7cTh3IEP6/SFnt0wP16wV5Xunh3rezeSwmSlQZww=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/less/path.less</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GvtKhJBZYx927SpRnX+xvQrxSAI=
+			</data>
+			<key>hash2</key>
+			<data>
+			oNy7zTl29ZEWJowQl2fDuY/jWIcvbp/BoNJqM30nK48=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/less/rotated-flipped.less</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ld5d6QCXFGkkMLBPnNQ4i+j7qPM=
+			</data>
+			<key>hash2</key>
+			<data>
+			1n35VIjuyE0tDK95cnglqP9LLfkMYEFReD4+wjiNrTg=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/less/screen-reader.less</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cRORMvFw6+dxKDYhD00sSQUVGJk=
+			</data>
+			<key>hash2</key>
+			<data>
+			sy/3ghp7CmSfkgKgLuuM6I/mcetS1h7OUKq9vOIREMY=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/less/stacked.less</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8EQHe8i+GpicJFJU6B6whNUtKac=
+			</data>
+			<key>hash2</key>
+			<data>
+			P53mw+DxorxxV5pBfXxBX4Lyo9P0eSFhqFiLuL3XVFA=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/less/variables.less</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ilyAB0dwXfFhF8xZjBufUS6HO/4=
+			</data>
+			<key>hash2</key>
+			<data>
+			43F0Ipdiktj9xLKp7QK40L5VrVC4bpv/dHYeXM+UuDk=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/scss/_animated.scss</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ja8Ymy+KQESVuEJLb9G6Yw3Rwtw=
+			</data>
+			<key>hash2</key>
+			<data>
+			kA4lMcp1RPqPbg25mWvSjTlwGF7YEHF6Ckh52hNeVHg=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/scss/_bordered-pulled.scss</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FktqCiswfNKT9KkUqw/N9kOVA3Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			0dKNQFuTKDE8hD98GkCVHuGnONYyCBvrdqDgcrQH9Uk=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/scss/_core.scss</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VaFKNCZ+3EAbguXuQdi9hPu12j8=
+			</data>
+			<key>hash2</key>
+			<data>
+			5ugZSbCsRmg5xSOaFFCWfsMq8w63wl0YRVaWIeihyPw=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/scss/_fixed-width.scss</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IkQXyiZsZXhJr7K7y23EVYlP84c=
+			</data>
+			<key>hash2</key>
+			<data>
+			uLCzR44E6GjvDNX6P7KRUk8ZMhRNG9NCfRVq/jaRlOk=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/scss/_icons.scss</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gw4BgzN9FsB7HGODj3WToz7oexU=
+			</data>
+			<key>hash2</key>
+			<data>
+			qPG11qGhmSdIq5VBJEP7KK/Aq3Edhvvfp9igsAzuOkg=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/scss/_larger.scss</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lA4cXrxpAoO/ruklYM8V+r7b9qk=
+			</data>
+			<key>hash2</key>
+			<data>
+			+06OfV0DB02kAvVE02vWrbatrtetgWxLyz9T/gMnPBc=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/scss/_list.scss</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			S1PuAVE9+LnOdkQrLY8YUWE6Q1w=
+			</data>
+			<key>hash2</key>
+			<data>
+			1UMKZpX+vNnn9YmAQa7StiBg0bjXt4Lg9JdSEKDd844=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/scss/_mixins.scss</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TziBA0pMEcrozJFfKIR3tJijV6I=
+			</data>
+			<key>hash2</key>
+			<data>
+			Lv48Zlxf7Mb7P2rN8YX9wLGHGtB0OB+jm1gcr8X6gs4=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/scss/_path.scss</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CAFYrrG/bfWeyYsrvtRNph2cnKM=
+			</data>
+			<key>hash2</key>
+			<data>
+			DgNeIbvffxTxRT+hJqrznwtiR5Rx88umSaZN0tqlTiY=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/scss/_rotated-flipped.scss</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ygigrz2mPC8qfTwnqHR2N3RMx4U=
+			</data>
+			<key>hash2</key>
+			<data>
+			/waG12rN41gdZ5vodPv3OovK5BEPp7bHqgirIEp/O3o=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/scss/_screen-reader.scss</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LYVjxIj2jnWijVQN2JMB7k7gjJc=
+			</data>
+			<key>hash2</key>
+			<data>
+			HJZMhNXsM/01kY8mDqNQOqqks/EJCzQqbpjbbQR9Xjg=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/scss/_stacked.scss</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			z2dS7mCa826yk6cZfIjTHsrLvHQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			cPM/0HmrcIWHxjtYhOBLMaP0b9M5I8sEZiH/GLG9mdI=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/scss/_variables.scss</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DW1wU1EEtC5g1/RK5sz53gI6e4s=
+			</data>
+			<key>hash2</key>
+			<data>
+			8tBpoyNjOIg7wQtoKA4KLJZtrUFOJoQ/6no1FJ+V9k8=
+			</data>
+		</dict>
+		<key>www/css/font-awesome-4.7.0/scss/font-awesome.scss</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3YNkjqW8gy+Hw8G/lWxU3sBlqb0=
+			</data>
+			<key>hash2</key>
+			<data>
+			TLSgDKCLbkVuCfL77s3FqxP3yRvL6iYzAMgUrvP/z0M=
+			</data>
+		</dict>
+		<key>www/css/googleapis.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8g2yR7A0cKQK2r4oFB2POBhMMKM=
+			</data>
+			<key>hash2</key>
+			<data>
+			WNUiUylzX+hZ5VOzEcOkIzM7ew5Nfi8gIvu1jxAZMk4=
 			</data>
 		</dict>
 		<key>www/css/index.css</key>
@@ -935,6 +1579,28 @@
 			<key>hash2</key>
 			<data>
 			9IDIFpGTbIWjhO3w95/mz/OIspTW6Co1oUJns7uEH4Y=
+			</data>
+		</dict>
+		<key>www/css/sweetalert2.min.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b0BLVzt6LEKnpY4V8gjpleCy4rQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			/PajCYv7Tk4uercvs4zxWClUt7+EhitDgcrYvUFbFcU=
+			</data>
+		</dict>
+		<key>www/css/w3.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t/v9E1DkziHNQ5LS5waR+xNjPZA=
+			</data>
+			<key>hash2</key>
+			<data>
+			K6sHcbBakomxqcMs17gDgCf0bv2CK6ZL+SmeArpJHK4=
 			</data>
 		</dict>
 		<key>www/home.html</key>
@@ -985,11 +1651,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			y6w9w+5HU9yfJBYNe6Fj8E0eLaM=
+			RrYq2hVxTL1eSWnSDE9ZP9Pk9kA=
 			</data>
 			<key>hash2</key>
 			<data>
-			JIY3d2uGszDk5vTtWO6CHH+adY/5/NRqQ2QbUjo7uR4=
+			XpI/QCa8lk2oTbbMFIfaTDkAdhvbenN7/MjXmO26wTQ=
 			</data>
 		</dict>
 		<key>www/js/SocialSharing.js</key>
@@ -1001,6 +1667,17 @@
 			<key>hash2</key>
 			<data>
 			wEN5ONwaUeNRRboMz9sfQnKK6TdGX6/MglVaJnGE4cI=
+			</data>
+		</dict>
+		<key>www/js/angular-route.min.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Gk+nf8mP3kxWS/6TlWm9xsXqGpk=
+			</data>
+			<key>hash2</key>
+			<data>
+			IIR2HJFNbc3mLcLE0TsvwcwqiIn4D2xEnD0zch+Urg4=
 			</data>
 		</dict>
 		<key>www/js/angular-socialshare.js.map</key>
@@ -1025,15 +1702,103 @@
 			abaCNUugCJaAfevhB9/tMFfC2gb32SCBOf1oQZPo31Y=
 			</data>
 		</dict>
+		<key>www/js/angular-ui-notification.min.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			s4plDX0xCyhc9KcptaZWBEzloA4=
+			</data>
+			<key>hash2</key>
+			<data>
+			Mckr+9Fw7VJRuFzWguAupbMUViAO2uOe24rze+4gPbk=
+			</data>
+		</dict>
+		<key>www/js/angular-ui.min.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			63bTY39iReLAiGYphStG37Gg/vE=
+			</data>
+			<key>hash2</key>
+			<data>
+			8hGm7GdHBVZHooaFRDskGy4RyLZQ8w3KCZ6i8cERcdI=
+			</data>
+		</dict>
+		<key>www/js/angular.min.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nA1ti137Tcre5v65c0SB4mObdq4=
+			</data>
+			<key>hash2</key>
+			<data>
+			Flu/TaIZ6cRqZCy+r6Mlk0YLILgenDIpSn6gRSnSjSM=
+			</data>
+		</dict>
+		<key>www/js/bootstrap.min.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WZuTx0PZ4aUkLPcfVToNWqjx3T0=
+			</data>
+			<key>hash2</key>
+			<data>
+			7sn3PcTs0zOjs50nL4+/jeDEp/5KcPaedlM9sBr8jLY=
+			</data>
+		</dict>
+		<key>www/js/jquery.min.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dfQKb/j4sjBDqnnkLRTeiMhf4mw=
+			</data>
+			<key>hash2</key>
+			<data>
+			VN+HZE0tFDrSJeIIXm+Z9NRigr0zim527smpwRnOP3k=
+			</data>
+		</dict>
 		<key>www/js/myappangular.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QZvw9aVBBrvPMhs+5IAWz5CHNwQ=
+			rjlui+Vvo20kswxM5NGm71peHns=
 			</data>
 			<key>hash2</key>
 			<data>
-			0CX9cMXXkaWpGJzLuLe2Qpa/cAarpjS5UiMvlwJ9ylE=
+			Ci3O+/GNP72rNHM+d//gofrJgvJwsPMnLoB5NcQlEd0=
+			</data>
+		</dict>
+		<key>www/js/socket.io.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uKYSmciqT+pn9kVxomR71SIIO9I=
+			</data>
+			<key>hash2</key>
+			<data>
+			baFhjt3I8TP5b3QYeKKjFnTLrOMH6m7D8V8t7w2ZeCo=
+			</data>
+		</dict>
+		<key>www/js/sweetalert2.all.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SZuP9wVT0frgzW84EQNZR4uFGtw=
+			</data>
+			<key>hash2</key>
+			<data>
+			rV29sZs+noI68cKYz1zIBCLsEjAl4IHLF0LYonJr39A=
+			</data>
+		</dict>
+		<key>www/js/ui-bootstrap-tpls-0.5.0.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			U6ZNTwJq3s5uAWJGHsLhuyXcANQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			2DAkQbLYEO/4gEnD4Wglshv0oVCqSVod3upQKA9BDFA=
 			</data>
 		</dict>
 		<key>www/plugins/cordova-plugin-fcm/www/FCMPlugin.js</key>

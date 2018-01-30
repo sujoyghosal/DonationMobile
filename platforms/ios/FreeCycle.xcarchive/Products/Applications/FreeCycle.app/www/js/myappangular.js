@@ -620,6 +620,12 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
         socket = io.connect(BASEURL);
         socket.on('connect', function() {
             console.log("##### Connected to server socket!");
+            for (var i = 0; i < $scope.usergroups.length; i++) {
+                //socket.join($scope.usergroups[i].name);
+                room = $scope.usergroups[i].name;
+                console.log("#### Joining events channel " + room);
+                socket.emit('room', room);
+            }
         });
         if (purpose && purpose === "init") {
             for (var i = 0; i < $scope.usergroups.length; i++) {
@@ -628,11 +634,13 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
                 console.log("#### Joining events channel " + room);
                 socket.emit('room', room);
             }
+            // return;
         } else if (purpose && purpose === "leave") {
             if (arg && arg.length > 0) {
                 console.log("#### Leaving room " + arg);
                 socket.emit('leave', arg);
             }
+            //  return;
         }
         socket.on('matchingevent', function(data) {
             console.log("####received matching event: " + JSON.stringify(data));
@@ -661,7 +669,12 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
                     }
                 }
             }
+            //return;
         });
+        /*socket.onclose = function() {
+            console.log("##### received onClose event on websocket");
+            $scope.setupWebSockets('init', null);
+        };*/
     }
     $scope.HandleEvent = function(title, text) {
         /*cordova.plugins.notification.local.schedule({

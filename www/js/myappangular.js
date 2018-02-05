@@ -993,7 +993,7 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
                         var d = new Date();
                         var o = new Date($scope.citydonations[i].modified);
                         if (!myoffers) {
-                            if (((d - o) > 7 * ONE_DAY) || $scope.citydonations[i].email === $scope.login_email)
+                            if (((d - o) > 60 * ONE_DAY) || $scope.citydonations[i].email === $scope.login_email)
                                 continue;
                             else
                                 filteredDonations.push($scope.citydonations[i]);
@@ -1070,7 +1070,7 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
                     for (var i = 0; i < $scope.cityneeds.length; i++) {
                         var d = new Date();
                         var o = new Date($scope.cityneeds[i].modified);
-                        if ((d - o) > 7 * ONE_DAY)
+                        if ((d - o) > 60 * ONE_DAY)
                             continue;
                         else if (!emergency && $scope.cityneeds[i].email === $scope.login_email)
                             continue;
@@ -1205,7 +1205,7 @@ app.controller("DonationCtrl", function($scope, $rootScope, $http, $filter, $loc
                     for (var i = 0; i < $scope.cityneeds.length; i++) {
                         var d = new Date();
                         var o = new Date($scope.cityneeds[i].modified);
-                        if (((d - o) > 7 * ONE_DAY))
+                        if (((d - o) > 60 * ONE_DAY))
                             continue;
                         else if (type != 'emergency' && $scope.cityneeds[i].email === $scope.login_email)
                             continue;
